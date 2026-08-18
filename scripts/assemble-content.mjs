@@ -118,7 +118,12 @@ function assemblePage(pkgFile, markdownRaw) {
   const quickAnswerBlock =
     sectionMap["quick-answer"] ||
     extractQuickAnswerFromHeadings(body);
-  const quickAnswer = stripHeading(quickAnswerBlock).trim();
+  // Trim to first paragraph block so the hero does not embed subsequent
+  // headings or body prose.
+  const quickAnswer = stripHeading(quickAnswerBlock)
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean)[0] || "";
 
   const sourcesBlock = sectionMap["sources"] || "";
   const linksBlock = sectionMap["internal-links"] || "";
