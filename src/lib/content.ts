@@ -1,19 +1,13 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
-import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
+import { generatedPages } from "@/data/generated-pages";
 import { sitePages } from "@/data/pages/site-pages";
-import { wikiPages } from "@/data/pages/wiki-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
 const fixedPages: PageContent[] = [
-  homePage,
-  ...wikiPages,
-  ...guidePages,
-  ...releasePages,
+  ...generatedPages,
   ...sitePages,
 ];
 
@@ -87,7 +81,18 @@ export function getFaqsForPage(page: PageContent): FAQItem[] {
 
 export function getRelatedPages(page: PageContent): PageContent[] {
   return page.relatedPageIds
-    .map((id) => getPageById(id))
+    .map((id) => {
+      const direct = getPageById(id);
+      if (direct) return direct;
+      // Tolerate bare ids like "wiki" or "release-date" alongside the
+      // canonical "{slug}-en-US" id used by V3 generated pages.
+      const candidates = getAllPages();
+      return candidates.find(
+        (candidate) =>
+          candidate.translationKey === id ||
+          `${candidate.translationKey}-${candidate.locale}` === id,
+      );
+    })
     .filter((related): related is PageContent => Boolean(related));
 }
 

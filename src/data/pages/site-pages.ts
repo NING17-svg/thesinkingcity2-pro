@@ -49,7 +49,7 @@ export const sitePages: PageContent[] = [
       "platforms-known",
       "guide-depth",
     ],
-    relatedPageIds: ["wiki", "guides", "release-date", "about"],
+    relatedPageIds: ["release-date-en-US", "platforms-en-US", "about"],
     schemaTypes: ["FAQPage", "BreadcrumbList"],
     sourceStatus: "internal",
     lastReviewed: "2026-06-18",
@@ -267,5 +267,143 @@ export const sitePages: PageContent[] = [
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
     lastReviewed: "2026-06-18",
+  },
+  {
+    id: "guides",
+    translationKey: "guides",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "guides",
+    url: "/guides",
+    pageType: "guides",
+    presentation: { shell: "hub" },
+    h1: "Guide Index",
+    seoTitle: `Guides Index | ${site.gameName}`,
+    metaDescription:
+      "Quick-launch index of all first-launch guides for The Sinking City 2, including walkthroughs, demo walkthrough, getting-started, and how-long-to-beat.",
+    summary: "A consolidated index of the launch-day guides.",
+    hero: {
+      eyebrow: "Guides",
+      subtitle: "Browse first-launch guides, walkthrough entry points, and how-to play start hints.",
+      ctas: [
+        { label: "Walkthrough", href: "/walkthrough" },
+        { label: "Getting started", href: "/getting-started" },
+      ],
+    },
+    quickAnswer:
+      "This index links to every guide on the site so you can jump directly to the playthrough aid you need.",
+    keyFacts: [
+      { label: "Total guides", value: "5 launch guides" },
+      { label: "Source rule", value: "Verified post-launch facts" },
+      { label: "Demo", value: "Prologue demo walkthrough included" },
+    ],
+    modules: [
+      {
+        id: "guide-index",
+        type: "entity-grid",
+        heading: "Browse guides",
+        items: [
+          {
+            title: "Getting started",
+            summary: "First-hour choices, inventory, ammo crafting.",
+            href: "/getting-started",
+          },
+          {
+            title: "Walkthrough",
+            summary: "Full main-story progression with chapter entry points.",
+            href: "/walkthrough",
+          },
+          {
+            title: "Demo walkthrough",
+            summary: "Clear the Prologue demo, including Devil's Reef safe code.",
+            href: "/demo-walkthrough",
+          },
+          {
+            title: "How long to beat",
+            summary: "Main story, side content, and completion estimates.",
+            href: "/how-long-to-beat",
+          },
+        ],
+      },
+    ],
+    faqIds: ["guide-depth"],
+    relatedPageIds: ["release-date-en-US", "platforms-en-US"],
+    schemaTypes: ["CollectionPage", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "internal",
+    lastReviewed: "2026-08-18",
+  },
+  {
+    id: "wiki",
+    translationKey: "wiki",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "wiki",
+    url: "/wiki",
+    pageType: "wiki",
+    presentation: { shell: "hub" },
+    h1: `${site.gameName} Codex`,
+    seoTitle: `${site.gameName} Codex | Setting, Systems, and Lore`,
+    metaDescription:
+      "Wiki index page grouping all setting, lore, system, and reference pages for The Sinking City 2 in one place.",
+    summary: "Index of the world and system notes.",
+    hero: {
+      eyebrow: "Codex",
+      subtitle: "Setting, lore, system, and reference notes for The Sinking City 2.",
+      ctas: [
+        { label: "1920s Arkham", href: "/setting-arkham" },
+        { label: "Enemies", href: "/enemies" },
+      ],
+    },
+    quickAnswer:
+      "This codex index is the launch-day reference hub for setting, lore, enemies, weapons, achievements, and ending notes.",
+    keyFacts: [
+      { label: "Scope", value: "Setting and systems" },
+      { label: "Source rule", value: "Official lore + attributed media" },
+      { label: "Legacy reference", value: "The Sinking City 1 ending-only" },
+    ],
+    modules: [
+      {
+        id: "codex-index",
+        type: "entity-grid",
+        heading: "Browse the codex",
+        items: [
+          {
+            title: "1920s Arkham",
+            summary: "Setting, Cal Rafferty, and Faye Bennett.",
+            href: "/setting-arkham",
+          },
+          {
+            title: "Enemies",
+            summary: "Slither, Deep Ones, Shadow enemies.",
+            href: "/enemies",
+          },
+          {
+            title: "Weapons",
+            summary: "Standard weapons and Chthonic Arsenal.",
+            href: "/weapons",
+          },
+          {
+            title: "Achievements",
+            summary: "23 achievements / trophies.",
+            href: "/achievements",
+          },
+          {
+            title: "Endings",
+            summary: "How endings work.",
+            href: "/endings",
+          },
+          {
+            title: "Vs The Sinking City 1",
+            summary: "Comparing Arkham to Oakmont.",
+            href: "/vs-the-sinking-city-1",
+          },
+        ],
+      },
+    ],
+    faqIds: ["is-official"],
+    relatedPageIds: ["setting-arkham-en-US", "enemies-en-US"],
+    schemaTypes: ["CollectionPage", "BreadcrumbList"],
+    sourceStatus: "internal",
+    lastReviewed: "2026-08-18",
   },
 ];
