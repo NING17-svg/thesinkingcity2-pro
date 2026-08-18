@@ -177,22 +177,22 @@ function assemblePage(pkgFile, markdownRaw) {
   const flush = () => {
     if (!currentHeading && !currentBody.trim()) return;
     const id = `${slugifyHeading(currentHeading || "section")}-${++moduleCount}`;
-    const module = {
+    const guideModule = {
       id,
       type: "prose",
       heading: currentHeading || id,
       body: currentBody.trim(),
     };
     // pull links from body
-    const links = linksFromParagraph(module.body);
+    const links = linksFromParagraph(guideModule.body);
     if (links.length) {
-      module.links = links.map((l) => ({
+      guideModule.links = links.map((l) => ({
         label: l.label,
         href: l.href,
         description: undefined,
       }));
     }
-    modules.push(module);
+    modules.push(guideModule);
     currentHeading = null;
     currentBody = "";
   };

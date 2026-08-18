@@ -66,7 +66,11 @@ export function getFinalRouteManifest(
       id: page.id,
       translationKey: page.translationKey,
       locale: page.locale,
-      routeKind: page.routeKind,
+      routeKind: (
+        page.translationKey === "home" && page.routeKind === "fixed"
+          ? ("home" as const)
+          : page.routeKind
+      ) as FinalRouteManifestEntry["routeKind"],
       url: page.url,
       alternates: getLanguageAlternates(page, sourcePages),
     }))

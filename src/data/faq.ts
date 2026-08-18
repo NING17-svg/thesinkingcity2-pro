@@ -6,7 +6,7 @@ export const faqItems: FAQItem[] = [
     question: "What is this guide site for?",
     answer:
       "This site is a first-launch guide hub for The Sinking City 2. It collects verified launch facts, walkthroughs, enemies, weapons, achievements, setting notes, and post-launch updates so players can navigate a single source-backed reference rather than scattered storefront blurbs.",
-    pageIds: ["home-en-US", "faq", "wiki", "about"],
+    pageIds: ["home-en-US", "faq", "setting-arkham-en-US", "about"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "internal",
@@ -16,7 +16,7 @@ export const faqItems: FAQItem[] = [
     question: "Is this an official game website?",
     answer:
       "No. This site is an unofficial fan guide and is not affiliated with Frogwares Ireland Ltd. or any platform holder. Confirmed launch facts are sourced from the Steam store, the Frogwares YouTube channel, Kickstarter, PlayStation Store, Xbox Store, and the Epic Games Store Premium Edition page; reviews are attributed to the publication and author who published them.",
-    pageIds: ["home-en-US", "faq", "wiki", "about"],
+    pageIds: ["home-en-US", "faq", "setting-arkham-en-US", "about"],
     category: "site",
     schemaEligible: true,
     sourceStatus: "internal",
@@ -46,7 +46,7 @@ export const faqItems: FAQItem[] = [
     question: "How detailed are the guides on this site?",
     answer:
       "V1 guides give a launch-day reference: release timing, platforms, editions and pricing, system requirements, a getting-started checklist, walkthrough entry points, demo walkthrough, weapons, enemies, achievements, ending notes, and the live review roundup. Detailed per-chapter walkthroughs and weapon-vs-enemy tables are added after verified post-launch demand appears.",
-    pageIds: ["getting-started-en-US", "walkthrough-en-US", "guides", "faq"],
+    pageIds: ["getting-started-en-US", "walkthrough-en-US", "demo-walkthrough-en-US", "faq"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "internal",

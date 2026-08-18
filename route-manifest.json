@@ -1,0 +1,222 @@
+[
+  {
+    "id": "home-en-US",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "achievements-en-US",
+    "translationKey": "achievements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/achievements",
+    "alternates": {
+      "en-US": "/achievements"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "demo-walkthrough-en-US",
+    "translationKey": "demo-walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/demo-walkthrough",
+    "alternates": {
+      "en-US": "/demo-walkthrough"
+    }
+  },
+  {
+    "id": "endings-en-US",
+    "translationKey": "endings",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/endings",
+    "alternates": {
+      "en-US": "/endings"
+    }
+  },
+  {
+    "id": "enemies-en-US",
+    "translationKey": "enemies",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/enemies",
+    "alternates": {
+      "en-US": "/enemies"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "getting-started-en-US",
+    "translationKey": "getting-started",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/getting-started",
+    "alternates": {
+      "en-US": "/getting-started"
+    }
+  },
+  {
+    "id": "how-long-to-beat-en-US",
+    "translationKey": "how-long-to-beat",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/how-long-to-beat",
+    "alternates": {
+      "en-US": "/how-long-to-beat"
+    }
+  },
+  {
+    "id": "platforms-en-US",
+    "translationKey": "platforms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/platforms",
+    "alternates": {
+      "en-US": "/platforms"
+    }
+  },
+  {
+    "id": "price-en-US",
+    "translationKey": "price",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/price",
+    "alternates": {
+      "en-US": "/price"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "release-date-en-US",
+    "translationKey": "release-date",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release-date",
+    "alternates": {
+      "en-US": "/release-date"
+    }
+  },
+  {
+    "id": "review-roundup-en-US",
+    "translationKey": "review-roundup",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/review-roundup",
+    "alternates": {
+      "en-US": "/review-roundup"
+    }
+  },
+  {
+    "id": "setting-arkham-en-US",
+    "translationKey": "setting-arkham",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/setting-arkham",
+    "alternates": {
+      "en-US": "/setting-arkham"
+    }
+  },
+  {
+    "id": "system-requirements-en-US",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "updates-dlc-en-US",
+    "translationKey": "updates-dlc",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/updates-dlc",
+    "alternates": {
+      "en-US": "/updates-dlc"
+    }
+  },
+  {
+    "id": "vs-the-sinking-city-1-en-US",
+    "translationKey": "vs-the-sinking-city-1",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/vs-the-sinking-city-1",
+    "alternates": {
+      "en-US": "/vs-the-sinking-city-1"
+    }
+  },
+  {
+    "id": "walkthrough-en-US",
+    "translationKey": "walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/walkthrough",
+    "alternates": {
+      "en-US": "/walkthrough"
+    }
+  },
+  {
+    "id": "weapons-en-US",
+    "translationKey": "weapons",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/weapons",
+    "alternates": {
+      "en-US": "/weapons"
+    }
+  }
+]
