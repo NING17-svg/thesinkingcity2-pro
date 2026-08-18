@@ -12,34 +12,34 @@ export const sitePages: PageContent[] = [
     pageType: "faq",
     presentation: { shell: "content", variant: "reading-full" },
     h1: `${site.gameName} FAQ`,
-    seoTitle: `${site.gameName} FAQ | Common Questions`,
+    seoTitle: `${site.gameName} FAQ | Common Launch Questions`,
     metaDescription:
-      "A frequently asked questions page template for site status, release info, platforms, and starter guide scope.",
+      "Quick answers to the most common launch, platform, edition, and gameplay questions about The Sinking City 2 (Frogwares, Steam AppID 2825860).",
     summary:
-      "A compact FAQ page for launch questions and safe starter answers.",
+      "Answers to the most common questions about The Sinking City 2 launch, platforms, editions, and gameplay.",
     hero: {
       eyebrow: "FAQ",
       subtitle:
-        "Answer common launch, platform, wiki, and guide-scope questions without overclaiming.",
+        "Direct answers to launch, platform, edition, and gameplay questions, each tied to a source on this site.",
       ctas: [
         { label: "Release Info", href: "/release-date" },
-        { label: "Contact", href: "/contact" },
+        { label: "Platforms", href: "/platforms" },
       ],
     },
     quickAnswer:
-      "This FAQ should answer only what the site can support with official facts or clear internal policy.",
+      "Browse short, source-backed answers to the questions players most often ask about The Sinking City 2.",
     keyFacts: [
-      { label: "FAQ source", value: "Official facts or site policy" },
+      { label: "FAQ source", value: "Steam store + Frogwares + attributed media" },
       { label: "Schema", value: "FAQ JSON-LD enabled" },
-      { label: "Review", value: "Update as launch facts change" },
+      { label: "Review", value: "Refreshed when launch facts change" },
     ],
     modules: [
       {
         id: "faq-policy",
         type: "prose",
-        heading: "FAQ policy",
+        heading: "How answers are sourced",
         body:
-          "Keep answers short, source-aware, and easy to update. Avoid speculative claims about release dates, platforms, gameplay systems, or technical details.",
+          "Every answer names the source it leans on. Launch timing and edition prices are pulled from the Steam store and the Xbox Store; review sentiment is attributed to the publication and the author who wrote it; lore and ending coverage is attributed to the writer who published it.",
       },
     ],
     faqIds: [
@@ -52,7 +52,7 @@ export const sitePages: PageContent[] = [
     relatedPageIds: ["release-date-en-US", "platforms-en-US", "about"],
     schemaTypes: ["FAQPage", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-08-18",
   },
   {
     id: "about",
@@ -66,21 +66,21 @@ export const sitePages: PageContent[] = [
     h1: `About ${site.name}`,
     seoTitle: `About ${site.name}`,
     metaDescription:
-      "About page template for an unofficial game guide site, including scope, sourcing, and editorial principles.",
+      `About ${site.name}: an unofficial source-backed guide to The Sinking City 2 launch, platforms, editions, walkthroughs, and post-launch updates.`,
     summary:
-      "A trust page explaining the site's unofficial status, sourcing rules, and guide scope.",
+      "An unofficial source-backed guide to The Sinking City 2 launch, walkthroughs, and post-launch notes.",
     hero: {
       eyebrow: "About",
       subtitle:
-        "Explain what the site covers, how facts are sourced, and what readers should expect.",
+        "What this site covers for The Sinking City 2, how the facts are sourced, and what to expect.",
       ctas: [{ label: "Contact", href: "/contact" }],
     },
     quickAnswer:
-      `${site.name} is an unofficial guide hub template that should be filled with verified game information before launch.`,
+      `${site.name} is an unofficial fan guide that aggregates verified launch facts, walkthroughs, and post-launch updates for The Sinking City 2.`,
     keyFacts: [
       { label: "Status", value: "Unofficial fan guide" },
-      { label: "Editorial rule", value: "Verified facts first" },
-      { label: "Scope", value: "Wiki, guides, release info, FAQ" },
+      { label: "Editorial rule", value: "Official facts first, attributed media second" },
+      { label: "Scope", value: "Release, platforms, walkthroughs, post-launch" },
     ],
     modules: [
       {
@@ -88,21 +88,21 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Mission",
         body:
-          "Help players find clear, well-structured information without pretending the site knows more than official sources support.",
+          "Help players find the verified launch facts and post-launch updates for The Sinking City 2 without requiring them to bounce between storefronts, social posts, and review sites.",
       },
       {
         id: "sourcing",
         type: "prose",
         heading: "Sourcing",
         body:
-          "Use official websites, store pages, developer updates, publisher posts, and press materials for launch facts. Mark uncertain areas as pending instead of filling gaps with guesses.",
+          "Steam store, PlayStation Store, Xbox Store, Epic Games Store, Frogwares YouTube channel, Kickstarter project, and attributed media (PCGamer, Rock Paper Shotgun, wccftech, SixthAxis, OpenCritic, TrueAchievements, Rely on Horror, Into Indie Games, TechRaptor, dsogaming) carry the weight for each page. Open questions are explicitly labeled.",
       },
     ],
     faqIds: ["what-is-this-site", "is-official"],
     relatedPageIds: ["contact", "privacy-policy", "terms"],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-08-18",
   },
   {
     id: "contact",
@@ -116,43 +116,42 @@ export const sitePages: PageContent[] = [
     h1: "Contact",
     seoTitle: `Contact | ${site.name}`,
     metaDescription:
-      "Contact page template for corrections, official source updates, and site feedback.",
-    summary:
-      "A trust page for corrections, source updates, and site feedback.",
+      "How to send corrections, source links, or feedback about The Sinking City 2 to the site maintainers.",
+    summary: "A dedicated correction and feedback channel.",
     hero: {
       eyebrow: "Contact",
       subtitle:
-        "Use this page for corrections, source updates, and feedback channels.",
+        "Send corrections, official source links, or feedback so the guide stays accurate as launch facts change.",
       ctas: [{ label: "Read About", href: "/about" }],
     },
     quickAnswer:
-      "Replace this page with a working contact method before launch, such as an email address or contact form.",
+      "Email support@thesinkingcity2.pro for corrections and source-link updates. Responses are best-effort.",
     keyFacts: [
       { label: "Primary use", value: "Corrections and feedback" },
-      { label: "Launch requirement", value: "Add a real contact method" },
-      { label: "Response", value: "Set expectations clearly" },
+      { label: "Response target", value: "Best-effort, typically within a week" },
+      { label: "Policy", value: "No game account credentials" },
     ],
     modules: [
       {
         id: "contact-method",
         type: "prose",
-        heading: "Contact method",
+        heading: "Email",
         body:
-          "Add a real email address or form endpoint before publishing. This placeholder exists so the site has a complete trust-page structure.",
+          "Send corrections to support@thesinkingcity2.pro. Include an official source URL so the change can be verified in one pass.",
       },
       {
         id: "corrections",
         type: "prose",
         heading: "Corrections",
         body:
-          "Invite readers to send official source links when facts change. Do not ask for private account information or game account credentials.",
+          "When you spot a fact that drifted — a launch window, an edition price, a confirmed setting detail — include the official source URL (Steam store, Frogwares YouTube, Kickstarter, storefront page) so the page can be corrected in a single edit.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "privacy-policy", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-08-18",
   },
   {
     id: "privacy-policy",
@@ -166,21 +165,21 @@ export const sitePages: PageContent[] = [
     h1: "Privacy Policy",
     seoTitle: `Privacy Policy | ${site.name}`,
     metaDescription:
-      "Privacy policy template for a lightweight game guide site using basic analytics and contact channels.",
+      "What thesinkingcity2.pro collects, why GA4 is enabled, what contact messages include, and how the policy is updated.",
     summary:
-      "A starter privacy policy page for analytics, logs, and contact messages.",
+      "What thesinkingcity2.pro collects, why, and how to reach the maintainers.",
     hero: {
       eyebrow: "Privacy",
       subtitle:
-        "Explain what data the site collects, why it is used, and how visitors can make contact.",
+        "Plain-language disclosure of analytics, hosting, and contact-message handling for this guide.",
       ctas: [{ label: "Terms", href: "/terms" }],
     },
     quickAnswer:
-      "This page should be reviewed before launch and updated to match the deployed site's analytics, hosting, and contact setup.",
+      "thesinkingcity2.pro uses Google Analytics 4 for aggregate usage and Cloudflare for hosting. No accounts, comments, or payments.",
     keyFacts: [
-      { label: "Analytics", value: "GA4 only when configured" },
-      { label: "Accounts", value: "No user accounts in V1" },
-      { label: "Ads", value: "Adsterra only when enabled" },
+      { label: "Analytics", value: "Google Analytics 4 only" },
+      { label: "Accounts", value: "No user accounts" },
+      { label: "Hosting", value: "Cloudflare (OpenNext runtime)" },
     ],
     modules: [
       {
@@ -188,28 +187,28 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Information we collect",
         body:
-          "This site does not include accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. If advertising is enabled, the third-party advertising provider may process technical request data and use cookies or similar technologies to deliver and measure ads.",
+          "This site does not include accounts, comments, or payments. When Google Analytics 4 is enabled, it collects aggregate usage data (page views, referrers, device class, approximate country) so the maintainers can see which guides help players. No advertising is enabled at launch; the page is hosted on Cloudflare.",
       },
       {
         id: "contact",
         type: "prose",
         heading: "Contact messages",
         body:
-          "If a contact method is added, messages may include the information visitors choose to send. Do not request sensitive personal information.",
+          "If you email support@thesinkingcity2.pro, the message body and your email address are stored only long enough to act on the correction and reply. No sensitive personal information is requested.",
       },
       {
         id: "updates",
         type: "prose",
         heading: "Policy updates",
         body:
-          "Update this policy when analytics, hosting, contact methods, advertising providers, or other data collection behavior changes.",
+          "When the analytics setup, hosting, contact method, or any other data-collection behavior changes, this page is updated to match.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-08-18",
   },
   {
     id: "terms",
@@ -223,21 +222,21 @@ export const sitePages: PageContent[] = [
     h1: "Terms of Use",
     seoTitle: `Terms of Use | ${site.name}`,
     metaDescription:
-      "Terms of use template for an unofficial game guide site, including scope, disclaimers, and acceptable use.",
+      "Use, accuracy, and acceptable-use rules for thesinkingcity2.pro, an unofficial fan guide to The Sinking City 2.",
     summary:
-      "A starter terms page for an unofficial guide site.",
+      "Unofficial guide status, accuracy notes, and acceptable-use rules for thesinkingcity2.pro.",
     hero: {
       eyebrow: "Terms",
       subtitle:
-        "Set clear expectations for unofficial status, informational use, and site changes.",
+        "Unofficial status, accuracy guidance, and acceptable-use rules for browsing this guide.",
       ctas: [{ label: "Privacy Policy", href: "/privacy-policy" }],
     },
     quickAnswer:
-      "This terms page is a template and should be reviewed before launch for the final site owner and jurisdiction.",
+      "thesinkingcity2.pro is an unofficial fan guide for The Sinking City 2. Use it for orientation; confirm final purchase decisions on the storefronts.",
     keyFacts: [
       { label: "Use", value: "Informational guide content" },
       { label: "Official status", value: "Unofficial fan site" },
-      { label: "Review", value: "Update before launch" },
+      { label: "Accuracy", value: "Sourced to storefronts + attributed media" },
     ],
     modules: [
       {
@@ -245,28 +244,28 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Unofficial site",
         body:
-          "This site is not affiliated with the game publisher, developer, platform holders, or trademark owners unless explicitly stated after launch.",
+          "This site is not affiliated with Frogwares Ireland Ltd., Sony, Microsoft, Valve, Epic, or any trademark owner. All game names, character names, and storefront names belong to their respective owners.",
       },
       {
         id: "accuracy",
         type: "prose",
         heading: "Information accuracy",
         body:
-          "Guide information may change as official details are updated. Use official sources for final purchase, platform, and release decisions.",
+          "Guide information may change as official details update. Use the storefronts and the Frogwares YouTube channel for final purchase, platform, release, and edition decisions.",
       },
       {
         id: "acceptable-use",
         type: "prose",
         heading: "Acceptable use",
         body:
-          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through any future contact channel.",
+          "Do not scrape the site aggressively, interfere with service availability, or post harmful content through the contact channel. Respect rate limits; the contact address is for corrections and feedback only.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "privacy-policy"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-08-18",
   },
   {
     id: "guides",

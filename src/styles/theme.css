@@ -1,31 +1,34 @@
 :root {
-  --page-bg: #f5f6f1;
-  --surface-1: #ffffff;
-  --surface-2: #eef2ed;
-  --surface-3: #e4e9e3;
-  --surface-inverse: #18201d;
-  --text-primary: #18201d;
-  --text-muted: #5d6862;
-  --text-inverse: #ffffff;
-  --text-on-accent-primary: #ffffff;
-  --text-link: #2f6f5e;
-  --focus-ring: #2f6f5e;
-  --line: #d8ded7;
-  --line-strong: #7d8982;
-  --accent-primary: #2f6f5e;
-  --accent-secondary: #b85c38;
-  --accent-bright: #c49a35;
-  --status-confirmed: #2f6f5e;
-  --status-caution: #9b651f;
-  --status-unknown: #69736e;
-  --font-heading: Inter, ui-sans-serif, system-ui, sans-serif;
-  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
-  --heading-weight: 800;
+  --page-bg: #0E1428;
+  --surface-1: #16203A;
+  --surface-2: #1E2B4A;
+  --surface-3: #28385C;
+  --surface-inverse: #E6D9B8;
+  --text-primary: #E6E2D6;
+  --text-muted: #9AA3B8;
+  --text-inverse: #0E1428;
+  --text-on-accent-primary: #FFFFFF;
+  --text-link: #E07A82;
+  --focus-ring: #FFB061;
+  --line: #2A3A5C;
+  --line-strong: #3D5278;
+  --accent-primary: #B8242C;
+  --accent-secondary: #D4B26A;
+  --accent-bright: #FFB061;
+  --status-confirmed: #D4B26A;
+  --status-caution: #E0A23C;
+  --status-unknown: #6E7A92;
+  --font-heading: 'Cinzel', 'IM Fell English SC', 'Times New Roman', Georgia, serif;
+  --font-body: 'EB Garamond', 'Crimson Text', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+  --heading-weight: 700;
   --border-width: 1px;
-  --radius: 8px;
-  --shadow: 0 18px 50px rgba(24, 32, 29, 0.08);
+  --radius: 6px;
+  --shadow: 0 2px 12px rgba(8, 12, 24, 0.55);
   --hover-lift: -2px;
   --max-width: 1180px;
+  --background-mode: gradient;
+  --background-overlay: 0.18;
+  --background-position: top center;
 }
 
 .site-theme {
