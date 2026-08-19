@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-08-19 - Launch-day review aggregates + NG+/HDR FAQ entries
+
+- Task: First content update for thesinkingcity2.pro after launch acceptance; central task `2026-08-19-thesinkingcity2-pro-launch-day-reviews-and-frogwares-launch-confirmations`.
+- Files changed: `src/data/faq.ts` (new FAQ items `ngplus-at-launch`, `hdr-support`), `src/data/pages/site-pages.ts` (FAQ page `faqIds` extended; `lastReviewed` -> `2026-08-19`), `src/data/generated-pages.ts` (home `recent-updates` block + 2026-08-19 source dates; review-roundup `launch-day-aggregates` + `per-critic-verdicts` modules and 2026-08-19 source dates), `CONTENT_INDEX.md` (rows refreshed for `/`, `/review-roundup`, `/faq`).
+- URLs affected: `/`, `/review-roundup`, `/faq`.
+- Content changed: Metacritic 79 (Generally Favorable; PS5 79 / Xbox Series X 84 / PC 75; 82% Positive / 18% Mixed / 0% Negative), OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews, per-critic attributed scores (PCGamer 70/100 Jody Macgregor; SixthAxis 8/10 Steve C; Wccftech 8.5/10 Chris Wray; Hobby Consolas 82/100 Daniel Quesada; PlayStation Universe 8.5/10 Thea Severance; COGconnected 80/100 Stephan Adamus; Push Square 7/10 Liam Croft; DualShockers 9/10 Eric Warner; Player 2 91; Merlin'in Kazani 88; GamingBolt 80; Worth Playing 80; Gamereactor UK 80; GameOver.gr 70; Guardian 60). Frogwares launch-day New Game+ confirmation and free HDR post-launch patch confirmation added to both the review-roundup page and the FAQ.
+- Verification: `npm run verify` (typecheck, lint, template, content, indexnow, build, rendered SEO) passed locally.
+- IndexNow: target-site script `npm run indexnow:submit -- --submit --site-url https://thesinkingcity2.pro --url https://thesinkingcity2.pro/ --url https://thesinkingcity2.pro/review-roundup --url https://thesinkingcity2.pro/faq` invoked after live verification.
+
 ### 2026-08-19 - Adsterra fixed six-unit ads activated
 
 - Task: Replace empty Adsterra placeholders in `src/data/ads.ts` with the real codes for the fixed Native Banner, Banner 728x90, 468x60, 320x50, 160x600, and Smartlink units.

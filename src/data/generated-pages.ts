@@ -27,7 +27,7 @@ export const page_home: PageContent = {
   "keyFacts": [
     {
       "label": "Research date",
-      "value": "2026-08-18"
+      "value": "2026-08-19"
     },
     {
       "label": "Page type",
@@ -40,10 +40,16 @@ export const page_home: PageContent = {
   ],
   "modules": [
     {
+      "id": "recent-updates",
+      "type": "prose",
+      "heading": "Recent Updates",
+      "body": "- **2026-08-19** — Launch-day review aggregates: Metacritic 79 (Generally Favorable; 33 PS5 + 17 PC + 5 Xbox Series X critic reviews; 82% Positive / 18% Mixed / 0% Negative) and OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews now anchor the [/review-roundup](/review-roundup) page. Frogwares launch-day confirmations also landed: the game ships with a fully featured New Game+ mode, and the previously planned HDR patch is now part of the game's free post-launch support (not a 1.0 launch feature)."
+    },
+    {
       "id": "sources",
       "type": "prose",
       "heading": "Sources",
-      "body": "[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-18` - Platforms, Controller Support, Standard Edition price, and PC spec fields.\n[Frogwares YouTube channel - Welcome To Arkham trailer](https://www.youtube.com/@Frogwares) - `official/store` - checked `2026-08-18` - 1920s Arkham setting, Cal Rafferty as protagonist, Faye Bennett casting.\n[The Sinking City 2 Kickstarter campaign](https://www.kickstarter.com/projects/frogwares/the-sinking-city-2) - `official/store` - checked `2026-08-18` - Worldwide release date confirmation, EUR 200 collector's edition tier.\n[Xbox Store - The Sinking City 2 Premium Edition](https://www.xbox.com/en-US/games/store/the-sinking-city-2-premium-edition) - `official/store` - checked `2026-08-18` - Premium Edition $59.99 USD price, edition bundle contents.\n[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Jody Macgregor review quote and main-story length under 15 hours.\n[OpenCritic - The Sinking City 2](https://opencritic.com/game/20806/the-sinking-city-2) - `media/interview` - checked `2026-08-18` - \"Strong\" tier, top 17%, ~81 top critic average across ~40 critics.\n[TrueAchievements - The Sinking City 2 achievements](https://www.trueachievements.com/game/The-Sinking-City-2/achievements) - `wiki/reference` - checked `2026-08-18` - 23 achievements total at launch."
+      "body": "[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-19` - Platforms, Controller Support, Standard Edition price, and PC spec fields.\n[Frogwares YouTube channel - Welcome To Arkham trailer](https://www.youtube.com/@Frogwares) - `official/store` - checked `2026-08-19` - 1920s Arkham setting, Cal Rafferty as protagonist, Faye Bennett casting.\n[The Sinking City 2 Kickstarter campaign](https://www.kickstarter.com/projects/frogwares/the-sinking-city-2) - `official/store` - checked `2026-08-19` - Worldwide release date confirmation, EUR 200 collector's edition tier.\n[Xbox Store - The Sinking City 2 Premium Edition](https://www.xbox.com/en-US/games/store/the-sinking-city-2-premium-edition) - `official/store` - checked `2026-08-19` - Premium Edition $59.99 USD price, edition bundle contents.\n[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-19` - Jody Macgregor review quote and main-story length under 15 hours.\n[OpenCritic - The Sinking City 2](https://opencritic.com/game/20806/the-sinking-city-2) - `media/interview` - checked `2026-08-19` - Top critic average 81, 73% Critics Recommend across 41 critic reviews.\n[Metacritic - The Sinking City 2 reviews](https://www.metacritic.com/game/the-sinking-city-2) - `media/interview` - checked `2026-08-19` - Metascore 79 (Generally Favorable); PS5 79 from 33 critic reviews, Xbox Series X 84 from 5 critic reviews, PC 75 from 17 critic reviews; 82% Positive / 18% Mixed / 0% Negative.\n[GamingTrend - Frogwares launch-day New Game+ and free HDR patch confirmations](https://gamingtrend.com/news/frogwares-debuts-new-sinking-city-2-gameplay-confirms-launch-day-new-game-and-updates-fans-on-free-hdr-patch) - `media/interview` - checked `2026-08-19` - Frogwares confirmed a fully featured New Game+ mode ships at launch; the previously planned HDR patch is now part of the game's free post-launch support.\n[TrueAchievements - The Sinking City 2 achievements](https://www.trueachievements.com/game/The-Sinking-City-2/achievements) - `wiki/reference` - checked `2026-08-19` - 23 achievements total at launch."
     }
   ],
   "faqIds": [],
@@ -53,7 +59,7 @@ export const page_home: PageContent = {
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-18"
+  "lastReviewed": "2026-08-19"
 };
 
 // Source: locales/en-US/pages/release-date.md
@@ -302,7 +308,7 @@ export const page_review_roundup: PageContent = {
   "keyFacts": [
     {
       "label": "Research date",
-      "value": "2026-08-18"
+      "value": "2026-08-19"
     },
     {
       "label": "Page type",
@@ -315,10 +321,22 @@ export const page_review_roundup: PageContent = {
   ],
   "modules": [
     {
+      "id": "launch-day-aggregates",
+      "type": "prose",
+      "heading": "Launch-Day Review Aggregates (Metacritic + OpenCritic)",
+      "body": "As of 19 Aug 2026, the launch-day review window (17-18 Aug 2026) produced the following aggregate numbers:\n\n- **Metacritic** (https://www.metacritic.com/game/the-sinking-city-2): Metascore 79, Generally Favorable. Platform-split: PS5 79 from 33 critic reviews; Xbox Series X 84 from 5 critic reviews; PC 75 from 17 critic reviews. Distribution: 82% Positive / 18% Mixed / 0% Negative.\n- **OpenCritic** (https://opencritic.com/game/20806/the-sinking-city-2): Top critic average 81, 73% Critics Recommend across 41 critic reviews.\n- **Frogwares launch-day confirmations** (per GamingTrend, 17 Aug 2026): The game ships with a fully featured New Game+ mode (carry-over perk points, perks, and items into a fresh run; unlocks achievements and earns cosmetic and gameplay rewards). The previously planned HDR patch is now part of the game's free post-launch support — not a 1.0 launch feature.\n- **Steam user sentiment**: Very Positive, 94% of 137 user reviews on Steam AppID 2825860 (checked 19 Aug 2026)."
+    },
+    {
+      "id": "per-critic-verdicts",
+      "type": "prose",
+      "heading": "Per-Critic Attributed Verdicts (17-18 Aug 2026 Window)",
+      "body": "Named critic scores attributed to publication + author:\n\n- PCGamer — Jody Macgregor, 70/100 (\"decent survival horror / incremental improvement over the original\", <15-hour main story).\n- SixthAxis — Steve C, 8/10 (polished focused gameplay, Resident Evil influence).\n- Wccftech — Chris Wray, 8.5/10 (\"far tighter story-driven game than the original\").\n- Hobby Consolas — Daniel Quesada, 82/100 (technical flaws but narrative and artistic design carry it).\n- PlayStation Universe — Thea Severance, 8.5/10 (Resident Evil-inspired recipe).\n- COGconnected — Stephan Adamus, 80/100 (\"more unique than Silent Hill 2 remake and Cronos\").\n- Push Square — Liam Croft, 7/10 (solid Resident Evil-esque effort).\n- DualShockers — Eric Warner, 9/10 (\"Frogwares' first survival horror triumph\").\n- Player 2 — 91 (17 Aug 2026, PS5).\n- Merlin'in Kazani — 88 (17 Aug 2026, PS5).\n- GamingBolt — 80 (17 Aug 2026, PS5).\n- Worth Playing — 80 (17 Aug 2026, PS5).\n- Gamereactor UK — 80 (17 Aug 2026, PS5).\n- GameOver.gr — 70 (17 Aug 2026, PS5).\n- Guardian — 60 (17 Aug 2026, PS5)."
+    },
+    {
       "id": "sources",
       "type": "prose",
       "heading": "Sources",
-      "body": "[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Jody Macgregor's \"decent survival horror / incremental improvement over the original\" verdict and under-15-hour campaign note.\n[wccftech - The Sinking City 2 review](https://wccftech.com/review/the-sinking-city-2-eldritch-survival-horror-done-right) - `media/interview` - checked `2026-08-18` - \"Eldritch survival horror done right\" headline verdict and creature design praise.\n[SixthAxis - The Sinking City 2 review](https://www.thesixthaxis.com/2026/08/17/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - 17 Aug 2026 embargo-lift verdict on the 1920s Arkham setting and Holloway Manor mission value.\n[Rock Paper Shotgun - The Sinking City 2 preview](https://www.rockpapershotgun.com/ive-walked-the-waterlogged-streets-of-the-sinking-city-2-and-we-might-finally-have-a-cthulhu-survival-horror-game-to-rival-resident-evil-and-silent-hill) - `media/interview` - checked `2026-08-18` - \"Cthulhu survival horror to rival Resident Evil and Silent Hill\" framing preview.\n[OpenCritic - The Sinking City 2](https://opencritic.com/game/20806/the-sinking-city-2) - `media/interview` - checked `2026-08-18` - Strong 81 top-critic average, top 17% ranking, and roughly 40-critic count."
+      "body": "[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-19` - Jody Macgregor's \"decent survival horror / incremental improvement over the original\" verdict and under-15-hour campaign note.\n[wccftech - The Sinking City 2 review](https://wccftech.com/review/the-sinking-city-2-eldritch-survival-horror-done-right) - `media/interview` - checked `2026-08-19` - \"Eldritch survival horror done right\" headline verdict and creature design praise.\n[SixthAxis - The Sinking City 2 review](https://www.thesixthaxis.com/2026/08/17/the-sinking-city-2-review) - `media/interview` - checked `2026-08-19` - 17 Aug 2026 embargo-lift verdict on the 1920s Arkham setting and Holloway Manor mission value.\n[Rock Paper Shotgun - The Sinking City 2 preview](https://www.rockpapershotgun.com/ive-walked-the-waterlogged-streets-of-the-sinking-city-2-and-we-might-finally-have-a-cthulhu-survival-horror-game-to-rival-resident-evil-and-silent-hill) - `media/interview` - checked `2026-08-19` - \"Cthulhu survival horror to rival Resident Evil and Silent Hill\" framing preview.\n[OpenCritic - The Sinking City 2](https://opencritic.com/game/20806/the-sinking-city-2) - `media/interview` - checked `2026-08-19` - Top critic average 81, 73% Critics Recommend, 41 critic reviews, per-critic attributed scores (PCGamer 70, SixthAxis 8/10, Wccftech 8.5/10, Hobby Consolas 82, PlayStation Universe 8.5/10, COGconnected 80, Push Square 7/10, DualShockers 9/10).\n[Metacritic - The Sinking City 2 reviews](https://www.metacritic.com/game/the-sinking-city-2) - `media/interview` - checked `2026-08-19` - Metascore 79 (Generally Favorable); PS5 79 from 33 critic reviews, Xbox Series X 84 from 5 critic reviews, PC 75 from 17 critic reviews; 82% Positive / 18% Mixed / 0% Negative.\n[GamingTrend - Frogwares launch-day New Game+ and free HDR patch confirmations](https://gamingtrend.com/news/frogwares-debuts-new-sinking-city-2-gameplay-confirms-launch-day-new-game-and-updates-fans-on-free-hdr-patch) - `media/interview` - checked `2026-08-19` - Frogwares confirmed a fully featured New Game+ mode ships at launch (carry-over perk points, perks, and items into a fresh run to unlock achievements and earn cosmetic and gameplay rewards); the previously planned HDR patch is now part of the game's free post-launch support.\n[DualShockers - The Sinking City 2 review](https://www.dualshockers.com/the-sinking-city-2-review/) - `media/interview` - checked `2026-08-19` - Eric Warner 9/10 \"Frogwares' first survival horror triumph\" verdict.\n[Push Square - The Sinking City 2 PS5 review](https://www.pushsquare.com/reviews/ps5/the-sinking-city-2) - `media/interview` - checked `2026-08-19` - Liam Croft 7/10 verdict on the PS5 build.\n[The Sinking City 2 on Steam (AppID 2825860)](https://store.steampowered.com/app/2825860/The_Sinking_City_2) - `official/store` - checked `2026-08-19` - Frogwares Ireland Ltd., release 18 Aug 2026, Very Positive 94% of 137 user reviews."
     }
   ],
   "faqIds": [],
@@ -328,7 +346,7 @@ export const page_review_roundup: PageContent = {
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-18"
+  "lastReviewed": "2026-08-19"
 };
 
 // Source: locales/en-US/pages/how-long-to-beat.md

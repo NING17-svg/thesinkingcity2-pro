@@ -12,11 +12,12 @@ hreflang, sitemap, and route-manifest validation.
 
 | URL | File/Route | Type | Primary Keyword | Search Intent | Primary CTA | Internal-Link Role | Notes |
 |---|---|---|---|---|---|---|---|
-| `/` | `src/data/pages/home.ts` | Landing | Template Game guide | Find the best entry point | Open Wiki / Browse Guides | Hub | Replace with the configured game's main hub intent. |
+| `/` | `src/data/generated-pages.ts` (`page_home`) | Landing | The Sinking City 2 guide | Find the launch hub for release, platforms, walkthrough, and reviews | Open Wiki / Browse Guides | Hub | Hub now includes a 2026-08-19 launch-day review aggregate + NG+/HDR recent-updates line. |
+| `/review-roundup` | `src/data/generated-pages.ts` (`page_review_roundup`) | Status | The Sinking City 2 review roundup | Compare review aggregates and critic verdicts | OpenCritic / Metacritic | Hub | Refreshed 2026-08-19 with launch-day Metacritic 79 (PS5 79 / Xbox Series X 84 / PC 75 split, 82% Positive), OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews, and Frogwares NG+/HDR launch-day confirmations. |
 | `/wiki` | `src/data/pages/wiki-pages.ts` | Guide | Template Game wiki | Understand confirmed facts | Guides / FAQ | Hub | Keep official fact base and source context here. |
 | `/guides` | `src/data/pages/guide-pages.ts` | Guide | Template Game guides | Find guide topics before launch | Wiki / Release Info | Hub | Do not invent walkthroughs before reliable details exist. |
 | `/release-date` | `src/data/pages/release-pages.ts` | Guide | Template Game release date | Check release timing and platforms | FAQ / Wiki | Supporting hub | Must stay tied to official or store sources. |
-| `/faq` | `src/data/pages/site-pages.ts` | Guide | Template Game FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. |
+| `/faq` | `src/data/pages/site-pages.ts` | Guide | The Sinking City 2 FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. `faqIds` now includes the 2026-08-19 launch-day entries `ngplus-at-launch` and `hdr-support`. |
 | `/about` | `src/data/pages/site-pages.ts` | Utility | about Template Game Guide | Trust and editorial policy | Contact | Trust | Explain unofficial status and sourcing rules. |
 | `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
 | `/privacy-policy` | `src/data/pages/site-pages.ts` | Legal | privacy policy | Privacy and analytics | Terms | Trust | GA4 only when configured. |

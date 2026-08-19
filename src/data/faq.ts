@@ -51,4 +51,24 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "internal",
   },
+  {
+    id: "ngplus-at-launch",
+    question: "Does The Sinking City 2 have New Game Plus at launch?",
+    answer:
+      "Yes. The Sinking City 2 ships at launch with a fully featured New Game+ mode, confirmed by Frogwares during the 17-18 Aug 2026 launch window (GamingTrend coverage). New Game+ lets you carry over perk points, perks, and items into a fresh run to tackle new challenges, unlock achievements, and earn cosmetic and gameplay rewards.",
+    pageIds: ["faq", "review-roundup-en-US"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "hdr-support",
+    question: "Is HDR supported on The Sinking City 2?",
+    answer:
+      "HDR is not a 1.0 launch feature. Frogwares confirmed during the 17-18 Aug 2026 launch window (GamingTrend coverage) that the previously planned HDR patch is now part of the game's free post-launch support, not part of the day-one 1.0 release. HDR availability will surface first on the Steam Store page and the Frogwares YouTube channel.",
+    pageIds: ["faq", "release-date-en-US"],
+    category: "platform",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 ];
