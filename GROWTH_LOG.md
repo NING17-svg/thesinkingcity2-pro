@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-08-21 - Post-launch upscaling / DualSense / collision FAQ cluster
+
+- Task: Second content update for thesinkingcity2.pro after launch acceptance; central task `2026-08-21-thesinkingcity2-pro-post-launch-upscaling-dualsense-and-collision-faq-cluster`.
+- Files changed: `src/data/faq.ts` (new FAQ items `fsr-not-yet`, `dlss-fg-performance`, `dlss-missing-option`, `dualsense-audio-output`, `stuck-in-collision`), `src/data/pages/site-pages.ts` (FAQ page `faqIds` extended; `lastReviewed` -> `2026-08-21`), `src/data/generated-pages.ts` (home `recent-updates` block + 2026-08-21 line; home `lastReviewed` -> `2026-08-21`; system-requirements new `upscaling-posture` module + 2026-08-21 source dates; system-requirements `lastReviewed` -> `2026-08-21`), `CONTENT_INDEX.md` (rows refreshed for `/`, `/system-requirements`, `/faq`).
+- URLs affected: `/`, `/faq`, `/system-requirements`.
+- Content changed: Five new /faq entries sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860 (FSR pending AMD UE 5.8 patch; DLSS Frame Generation performance caveats; DLSS Upscaler missing-option clean-reinstall fix via Display Driver Uninstaller; DualSense gamepad speaker audio routing via Windows audio output toggle; stuck-in-collision load-last-save). /system-requirements now carries an explicit "Upscaling & upscaler posture" note (DLSS 4 + DLSS Multi Frame Generation only on launch; no AMD FSR, no Intel XeSS, no TSR yet) and its source-links block lists the Steam Discussions pinned FAQ, the Steam Discussions hub for AppID 2825860, the PCGamingWiki upscaling list, and DSOGaming's first PC performance impressions + PC performance analysis. /home recent-updates block now carries a 2026-08-21 line summarizing the post-launch upscaling posture + new /faq entries.
+- Verification: `npm run verify` (typecheck, lint, template, content, indexnow, build, rendered SEO) passed locally.
+- IndexNow: target-site script `npm run indexnow:submit -- --submit --site-url https://thesinkingcity2.pro --url https://thesinkingcity2.pro/ --url https://thesinkingcity2.pro/faq --url https://thesinkingcity2.pro/system-requirements` invoked after live verification.
+
 ### 2026-08-19 - Launch-day review aggregates + NG+/HDR FAQ entries
 
 - Task: First content update for thesinkingcity2.pro after launch acceptance; central task `2026-08-19-thesinkingcity2-pro-launch-day-reviews-and-frogwares-launch-confirmations`.

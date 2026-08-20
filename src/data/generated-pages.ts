@@ -27,7 +27,7 @@ export const page_home: PageContent = {
   "keyFacts": [
     {
       "label": "Research date",
-      "value": "2026-08-19"
+      "value": "2026-08-21"
     },
     {
       "label": "Page type",
@@ -43,7 +43,7 @@ export const page_home: PageContent = {
       "id": "recent-updates",
       "type": "prose",
       "heading": "Recent Updates",
-      "body": "- **2026-08-19** — Launch-day review aggregates: Metacritic 79 (Generally Favorable; 33 PS5 + 17 PC + 5 Xbox Series X critic reviews; 82% Positive / 18% Mixed / 0% Negative) and OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews now anchor the [/review-roundup](/review-roundup) page. Frogwares launch-day confirmations also landed: the game ships with a fully featured New Game+ mode, and the previously planned HDR patch is now part of the game's free post-launch support (not a 1.0 launch feature)."
+      "body": "- **2026-08-21** — Post-launch upscaling posture confirmed: The Sinking City 2 ships with NVIDIA DLSS 4 + DLSS Multi Frame Generation only on launch; AMD FSR is not yet supported (pending AMD's UE 5.8 plugin/patch). Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860 now answers five post-launch cluster questions — FSR pending, Frame Generation performance caveats, DLSS Upscaler missing-option clean-reinstall fix, DualSense gamepad speaker audio routing, and stuck-in-collision load-last-save — and those answers are now surfaced on the [/faq](/faq) page. [/system-requirements](/system-requirements) now carries an explicit \"Upscaling & upscaler posture\" note.\n- **2026-08-19** — Launch-day review aggregates: Metacritic 79 (Generally Favorable; 33 PS5 + 17 PC + 5 Xbox Series X critic reviews; 82% Positive / 18% Mixed / 0% Negative) and OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews now anchor the [/review-roundup](/review-roundup) page. Frogwares launch-day confirmations also landed: the game ships with a fully featured New Game+ mode, and the previously planned HDR patch is now part of the game's free post-launch support (not a 1.0 launch feature)."
     },
     {
       "id": "sources",
@@ -59,7 +59,7 @@ export const page_home: PageContent = {
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-19"
+  "lastReviewed": "2026-08-21"
 };
 
 // Source: locales/en-US/pages/release-date.md
@@ -253,7 +253,7 @@ export const page_system_requirements: PageContent = {
   "keyFacts": [
     {
       "label": "Research date",
-      "value": "2026-08-18"
+      "value": "2026-08-21"
     },
     {
       "label": "Scope",
@@ -266,10 +266,16 @@ export const page_system_requirements: PageContent = {
   ],
   "modules": [
     {
+      "id": "upscaling-posture",
+      "type": "prose",
+      "heading": "Upscaling & upscaler posture",
+      "body": "The Sinking City 2 ships with NVIDIA DLSS 4 + DLSS Multi Frame Generation only on launch. There is no AMD FSR, no Intel XeSS, and no Unreal Engine 5 TSR upscaler toggle exposed at launch. AMD FSR support is planned but is blocked on AMD releasing the required UE 5.8 plugin/patch, so it is not yet available on the launch 1.0 build. The Steam Community General Discussions pinned launch FAQ for AppID 2825860 carries the official first-party answers for the post-launch FSR / DLSS Frame Generation / DLSS Upscaler / DualSense audio / stuck-in-collision cluster, and the five corresponding [/faq](/faq) entries (fsr-not-yet, dlss-fg-performance, dlss-missing-option, dualsense-audio-output, stuck-in-collision) are sourced from there."
+    },
+    {
       "id": "sources",
       "type": "prose",
       "heading": "Sources",
-      "body": "[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-18` - Minimum and recommended PC spec fields, 70 GB install, Windows 11 x64, SSD recommendation, Steam AppID 2825860.\n[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Unreal Engine 5 engine attribution and performance impressions.\n[Rock Paper Shotgun - The Sinking City 2 preview](https://www.rockpapershotgun.com/ive-walked-the-waterlogged-streets-of-the-sinking-city-2-and-we-might-finally-have-a-cthulhu-survival-horror-game-to-rival-resident-evil-and-silent-hill) - `media/interview` - checked `2026-08-18` - Engine and platform context for the current title.\n[wccftech - The Sinking City 2 review](https://wccftech.com/review/the-sinking-city-2-eldritch-survival-horror-done-right) - `media/interview` - checked `2026-08-18` - Engine confirmation and survival-horror technical impression.\n[SixthAxis - The Sinking City 2 review](https://www.thesixthaxis.com/2026/08/17/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Engine attribution from the launch-window review."
+      "body": "[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-21` - Minimum and recommended PC spec fields, 70 GB install, Windows 11 x64, SSD recommendation, Steam AppID 2825860.\n[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Unreal Engine 5 engine attribution and performance impressions.\n[Rock Paper Shotgun - The Sinking City 2 preview](https://www.rockpapershotgun.com/ive-walked-the-waterlogged-streets-of-the-sinking-city-2-and-we-might-finally-have-a-cthulhu-survival-horror-game-to-rival-resident-evil-and-silent-hill) - `media/interview` - checked `2026-08-18` - Engine and platform context for the current title.\n[wccftech - The Sinking City 2 review](https://wccftech.com/review/the-sinking-city-2-eldritch-survival-horror-done-right) - `media/interview` - checked `2026-08-18` - Engine confirmation and survival-horror technical impression.\n[SixthAxis - The Sinking City 2 review](https://www.thesixthaxis.com/2026/08/17/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Engine attribution from the launch-window review.\n[Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860](https://steamcommunity.com/app/2825860/discussions/0/589561020200166777) - `official/store` - checked `2026-08-21` - Canonical first-party answers for the post-launch FSR / DLSS Frame Generation / DLSS Upscaler / DualSense audio / stuck-in-collision cluster.\n[Steam Community General Discussions hub for AppID 2825860](https://steamcommunity.com/app/2825860/discussions/) - `official/store` - checked `2026-08-21` - Canonical first-party community surface for the ongoing post-launch upscaling / DualSense / collision cluster.\n[PCGamingWiki - List of games that support high-fidelity upscaling](https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high-fidelity_upscaling) - `wiki/reference` - checked `2026-08-21` - Entry for The Sinking City 2 confirming DLSS 4 / DLSS Multi Frame Generation only on launch (no FSR / XeSS / TSR).\n[DSOGaming - First PC Performance Impressions for The Sinking City 2](https://www.dsogaming.com/articles/first-pc-performance-impressions-for-the-sinking-city-2-1666-amsterdam-mortal-shell-2-valor-mortis-and-onimusha-way-of-the-sword) - `media/interview` - checked `2026-08-21` - DLSS 4 + Frame Gen performance benchmarks; FSR not yet supported.\n[DSOGaming - The Sinking City 2 PC Performance Analysis](https://www.dsogaming.com/pc-performance-analyses/the-sinking-city-2-pc-performance-analysis) - `media/interview` - checked `2026-08-21` - DLSS 4.5 with Multi Frame Gen only on launch; FSR pending AMD UE 5.8 patch."
     }
   ],
   "faqIds": [],
@@ -279,7 +285,7 @@ export const page_system_requirements: PageContent = {
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-18"
+  "lastReviewed": "2026-08-21"
 };
 
 // Source: locales/en-US/pages/review-roundup.md

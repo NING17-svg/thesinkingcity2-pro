@@ -71,4 +71,54 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+  {
+    id: "fsr-not-yet",
+    question: "Does The Sinking City 2 support AMD FSR?",
+    answer:
+      "FSR is not currently supported. AMD has not yet released the required plugin/patch for Unreal Engine 5.8. Frogwares has stated FSR will be added once it becomes available. (Sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860.)",
+    pageIds: ["faq", "system-requirements-en-US"],
+    category: "platform",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dlss-fg-performance",
+    question: "Why is performance worse with Frame Generation Enabled?",
+    answer:
+      "The Sinking City 2 ships with NVIDIA DLSS 4 / DLSS Multi Frame Generation support only. Running Frame Generation can introduce visual artifacts and lower effective performance on lower-end NVIDIA GPUs and on high-refresh 60Hz monitors; if you see worse performance with Frame Generation on, switch Frame Generation off or turn V-Sync off if your monitor runs at 60Hz. (Sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860; corroborated by DSOGaming's first PC performance impressions.)",
+    pageIds: ["faq", "system-requirements-en-US"],
+    category: "platform",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dlss-missing-option",
+    question: "The DLSS Upscaler option is missing from my graphics settings — how do I fix it?",
+    answer:
+      "Please update or reinstall your NVIDIA graphics driver and select the 'Perform a clean installation' option during installation. Preferably use Display Driver Uninstaller (https://www.guru3d.com/download/display-driver-uninstaller-download/) before reinstalling. (Sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860.)",
+    pageIds: ["faq", "system-requirements-en-US"],
+    category: "platform",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "dualsense-audio-output",
+    question: "All game sounds are coming from my DualSense gamepad speaker, not my headset — what do I do?",
+    answer:
+      "In the Windows audio output settings, switch the output device to the DualSense gamepad and then switch it back to your headset or speaker. This refreshes the audio routing. (Sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860.)",
+    pageIds: ["faq"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "stuck-in-collision",
+    question: "I'm stuck in a collision / the environment and my character won't move — what do I do?",
+    answer:
+      "Please load the last save. (Sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860.)",
+    pageIds: ["faq"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 ];
