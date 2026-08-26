@@ -17,6 +17,8 @@ hreflang, sitemap, and route-manifest validation.
 | `/wiki` | `src/data/pages/wiki-pages.ts` | Guide | Template Game wiki | Understand confirmed facts | Guides / FAQ | Hub | Keep official fact base and source context here. |
 | `/guides` | `src/data/pages/guide-pages.ts` | Guide | Template Game guides | Find guide topics before launch | Wiki / Release Info | Hub | Do not invent walkthroughs before reliable details exist. |
 | `/release-date` | `src/data/pages/release-pages.ts` | Guide | Template Game release date | Check release timing and platforms | FAQ / Wiki | Supporting hub | Must stay tied to official or store sources. |
+| `/walkthrough` | `src/data/generated-pages.ts` (`page_walkthrough`) | Guide | The Sinking City 2 walkthrough chapters puzzles codes | Recover exact code/order for gated puzzles in each chapter so an optional-investigation trophy is not skipped | Achievements / Getting Started / Endings | Hub | Refreshed 2026-08-27 with chapter-by-chapter anchors for Devil's Reef, Akeley Memorial Hospital, Redemption Church, Fish Market, and Portal Room, plus a compact puzzle table that names every code/sequence, hint source, and optional-investigation trophy. |
+| `/achievements` | `src/data/generated-pages.ts` (`page_achievements`) | Wiki | The Sinking City 2 achievements 23 missable NG+ | Plan a single-playthrough completion route and decide whether to commit to NG+ for the 18 otherwise-missable achievements | Walkthrough / Getting Started / Endings | Hub | Refreshed 2026-08-27 with the full 23-achievement list, category, Gamerscore-equivalent, unlock condition, and explicit missable / NG+ flags, plus a single-playthrough vs. New Game+ summary. |
 | `/system-requirements` | `src/data/generated-pages.ts` (`page_system_requirements`) | Wiki | The Sinking City 2 system requirements | Find the official PC specs | FAQ / Wiki | Reference | Refreshed 2026-08-21 with an explicit "Upscaling & upscaler posture" note (DLSS 4 + DLSS Multi Frame Generation only on launch; no AMD FSR, no Intel XeSS, no TSR). Source-links block updated with the Steam Discussions pinned FAQ + PCGamingWiki upscaling list + DSOGaming first PC performance impressions + DSOGaming PC performance analysis. |
 | `/faq` | `src/data/pages/site-pages.ts` | Guide | The Sinking City 2 FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. `faqIds` now includes the 2026-08-21 post-launch cluster entries `fsr-not-yet`, `dlss-fg-performance`, `dlss-missing-option`, `dualsense-audio-output`, and `stuck-in-collision` (sourced from Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860) alongside the 2026-08-19 launch-day entries `ngplus-at-launch` and `hdr-support`. |
 | `/about` | `src/data/pages/site-pages.ts` | Utility | about Template Game Guide | Trust and editorial policy | Contact | Trust | Explain unofficial status and sourcing rules. |
@@ -35,6 +37,8 @@ hreflang, sitemap, and route-manifest validation.
 
 - Launch facts: `/release-date`, `/faq`
 - Official facts and safe guide structure: `/wiki`, `/guides`
+- Player-guide hub: `/walkthrough` (chapter anchors + puzzle codes), `/getting-started`, `/demo-walkthrough`, `/how-long-to-beat`
+- Completion reference: `/achievements` (23-trophy list + missable / NG+ flags), `/endings`, `/weapons`, `/enemies`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 
 ## Internal Linking Map
@@ -44,6 +48,8 @@ hreflang, sitemap, and route-manifest validation.
 - Guides should link to wiki and release pages.
 - Release Date should link to FAQ and official sources.
 - FAQ should include all current high-demand answer pages.
+- `/walkthrough` should link to `/achievements` (missable flags), `/getting-started` (first-hour prep), `/demo-walkthrough` (Prologue Devil's Reef), `/how-long-to-beat`, and `/endings`.
+- `/achievements` should link to `/walkthrough` (chapter puzzle codes), `/getting-started` (first-hour prep), and `/endings`.
 
 ## Open Questions
 

@@ -468,7 +468,7 @@ export const page_getting_started: PageContent = {
 };
 
 // Source: locales/en-US/pages/walkthrough.md
-// h1: The Sinking City 2 Walkthrough
+// h1: The Sinking City 2 Walkthrough: Chapters, Puzzles, and Codes
 export const page_walkthrough: PageContent = {
   "id": "walkthrough-en-US",
   "translationKey": "walkthrough",
@@ -481,19 +481,19 @@ export const page_walkthrough: PageContent = {
     "shell": "content",
     "variant": "reading-right-rail"
   },
-  "h1": "The Sinking City 2 Walkthrough",
-  "seoTitle": "The Sinking City 2 Walkthrough: Main Story Chapters",
-  "metaDescription": "The Sinking City 2 walkthrough: a 4-act main story overview, resource checkpoints, and links to the demo walkthrough, enemies, and weapons pages for 2026.",
-  "summary": "The main story follows a four-act structure: Boat Arkham opens with Calvin \"Cal\" Rafferty arriving in the flooded 1920s city, the hospital and other survival-horror regions make up the middle acts, and the late regions close the Cal Raffert",
+  "h1": "The Sinking City 2 Walkthrough: Chapters, Puzzles, and Codes",
+  "seoTitle": "The Sinking City 2 Walkthrough: Chapters, Puzzles, Codes",
+  "metaDescription": "The Sinking City 2 walkthrough: chapter-by-chapter puzzle answers and codes for Devil's Reef, Akeley Memorial, Redemption Church, Fish Market, and the Portal Room, plus a compact code table for 100% completion.",
+  "summary": "This chapter-by-chapter walkthrough of The Sinking City 2 anchors every gated puzzle to its chapter (Devil's Reef, Akeley Memorial Hospital, Redemption Church, Fish Market, Portal Room) and maps each code or sequence to the hint source and the optional-investigation trophy it unlocks. Codes and press orders are sourced from the public walkthroughs listed below; this page does not invent puzzle answers and stays scoped to what those sources publish.",
   "hero": {
-    "subtitle": "Find a chapter-by-chapter main story walkthrough for The Sinking City 2 and the high-level act structure.",
+    "subtitle": "Find chapter-by-chapter puzzle answers and codes for The Sinking City 2 main story, with a compact table that names every missable investigation the puzzle unlocks.",
     "ctas": []
   },
-  "quickAnswer": "The main story follows a four-act structure: Boat Arkham opens with Calvin \"Cal\" Rafferty arriving in the flooded 1920s city, the hospital and other survival-horror regions make up the middle acts, and the late regions close the Cal Rafferty and Faye Bennett storyline. This page is the high-level walkthrough: it covers the four-act overview and resource planning for The Sinking City 2 walkthrough, with chapter-by-chapter puzzle answers cross-linked to the [Sinking City 2 demo walkthrough page](/demo-walkthrough).",
+  "quickAnswer": "This walkthrough replaces the four-act overview with a per-chapter anchor for Devil's Reef, Akeley Memorial Hospital, Redemption Church, Fish Market, and the Portal Room, plus a compact puzzle table that names every code, hint source, and optional-investigation trophy. Codes below are sourced from the public walkthroughs listed in the Sources block (TreyexGaming Puzzle Solutions Guide, PowerPyx, GameSpew, GamePressure Chapter 1, and Gamer Social Club's 100% achievement guide). Where a code requires carrying supplies across districts, the table calls out the prep step explicitly so you don't permanently skip the related trophy.",
   "keyFacts": [
     {
       "label": "Research date",
-      "value": "2026-08-18"
+      "value": "2026-08-27"
     },
     {
       "label": "Scope",
@@ -501,29 +501,117 @@ export const page_walkthrough: PageContent = {
     },
     {
       "label": "Source rule",
-      "value": "Official facts only"
+      "value": "Public walkthroughs + attributed community sources"
     }
   ],
   "modules": [
     {
+      "id": "chapter-1-devils-reef",
+      "type": "prose",
+      "heading": "Chapter 1: Devil's Reef (Prologue Demo)",
+      "body": "Devil's Reef opens the four-act campaign and is also the Prologue demo level that has been live on Steam since 10 Jun 2026. The chapter has two gated puzzles with codes you cannot recover mid-chapter if you skip the prep step.\n\n- **Devil's Reef Safe (Captain's logbook hint)**: Captain's logbook sitting on the desk in the Captain's office. Read the entry first; it gives the explicit number. Without that hint the code stays opaque.\n- **Apartment 5 Wall Safe — code `1908`**: First gated safe of the chapter. Open it for `The Inheritance` investigation trophy.\n- **Gate Fuse Box (Electrical Fuses from Radio Shop)**: Pick up the Electrical Fuses from the second-floor Radio Shop. The fuse box is on the gate; place each fuse in the slot that matches the circuit diagram on the box and then pull the right-hand lever to open the gate. The Electrical Fuses also progress `The Inheritance`.\n\nAttribute the chapter's codes to the TreyexGaming Puzzle Solutions Guide and the PowerPyx Devil's Reef walkthrough.",
+      "links": [
+        {
+          "label": "TreyexGaming Puzzle Solutions Guide",
+          "href": "https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide"
+        },
+        {
+          "label": "PowerPyx - Devil's Reef walkthrough",
+          "href": "https://www.powerpyx.com/the-sinking-city-2/devils-reef-walkthrough/"
+        },
+        {
+          "label": "GamePressure - Chapter 1 Devil's Reef",
+          "href": "https://www.gamepressure.com/the-sinking-city-2/chapter-1-devils-reef.htm"
+        },
+        {
+          "label": "Demo Walkthrough page",
+          "href": "/demo-walkthrough"
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-akeley-memorial",
+      "type": "prose",
+      "heading": "Chapter 2: Akeley Memorial Hospital",
+      "body": "Akeley Memorial is the second act's primary survival-horror region. It carries the second weapon pickup (the Submachine Gun) and the longest stretch of optional investigations in the chapter.\n\n- **Trident puzzle (Redemption Church entry step)**: Find the Church Key to unlock the church, then locate the Trident at the rear of the church. Go to the obelisk behind the church and rotate each section until all symbols align, validate, and wait for three lightning strikes to charge it. Carry the Trident back to the top floor of the church to complete the activation. This progresses `The Other Gods`.\n- **Cursed Press (Printing House)**: Collect Printing Plates A, B, and C from the surrounding rooms. Place them on the press in the Gold or Silver configuration. The Gold choice unlocks the Cutter's Sturdy Stock shotgun accessory; the Silver choice yields 2 Dream Essence. This progresses `The Red Press`.\n- **Room 301 Safe (Devil's Reef Hotel) — code `2137`**: The code is hidden across two evidence pieces inside the hotel: the \"Baby, One More Tide\" lyrics on a ground-floor VIP table (each lyric maps to a digit: 2 wings / 1 tail / 3 octopus hearts / 7 deadly sins) and Heloise's Letter in Room 303. The reward is Voss's Target Grip, handgun ammo, and shotgun shells. This progresses `The Siren's Call`.\n- **Ventilation System — sequence `1-1-2-2-2-2-3-3-Red switch-1`**: Flip the numbered breakers in this exact order, throw the Red switch at the end of the sequence, then flip breaker 1 once more. Restarting from the safe room is cheaper than guessing because wrong inputs reset the chain.\n\nAttribute the chapter's codes to the TreyexGaming Puzzle Solutions Guide.",
+      "links": [
+        {
+          "label": "TreyexGaming Puzzle Solutions Guide",
+          "href": "https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide"
+        },
+        {
+          "label": "Demo Walkthrough page",
+          "href": "/demo-walkthrough"
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-redemption-church",
+      "type": "prose",
+      "heading": "Chapter 3: Redemption Church and Akeley Hospital morgue",
+      "body": "Chapter 3 layers the Redemption Church investigation over the Akeley Memorial morgue side, and every code here gates a missable investigation.\n\n- **Locked Storage code — `1308`**: Located on the basement (-1F) of Akeley Memorial Hospital. You need the Anti-Rust Acid pickup before the code prompt will accept input; without the acid the panel is locked and the puzzle blocks. This unlocks `The Vault`.\n- **Three Prism Stations (Hospital)**: Blue Treatment / Yellow Priest / Pink Manipulations. Each station is a ring-rotation puzzle, not a number code; rotate the three rings at each station until the Occult Symbols line up with the coloured marker. The Manipulations Room is in the basement.\n- **Wireless Room brain frequencies — `13 -> 05 -> 36`**: Three talking brains in the Wireless Room. Enter each frequency separately and confirm with the central button between brains. The in-game evidence clues the order: Pence (13, an unlucky number between 10-20), Dunwich (5, half the rounded-ten of the first), Ambrose (36, double the sum of the first two). This progresses `The Whisperers`.\n\nAttribute the chapter's codes to the TreyexGaming Puzzle Solutions Guide.",
+      "links": [
+        {
+          "label": "TreyexGaming Puzzle Solutions Guide",
+          "href": "https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide"
+        }
+      ]
+    },
+    {
+      "id": "chapter-4-fish-market",
+      "type": "prose",
+      "heading": "Chapter 4: Fish Market",
+      "body": "The Fish Market chapter hosts four missable investigations and the late-game weapon pickup, so pacing matters: do the locker-room and weighing-station prep before the second Leyden Jar.\n\n- **Buoy combination (`The Drowned`)**: `Lighthouse -> Ropes -> Starfish -> Octopus` press order. This is the buoy puzzle that opens `The Drowned`.\n- **Sixteen Punishments press order — `I -> IV -> IX -> XVI`**: The press can be triggered in any order as long as those four are pressed. This unlocks `The Damned`.\n- **Memory Safe — code `6294`**: Found mid-chapter in the Salting Room area. Required to unlock a follow-up clue for `The Damned`.\n- **Strange Statue shoot order — `Kneeling Woman -> Octopus -> Sea Creature -> Time -> Jar`**: Shoot the statue reliefs in this exact order; a wrong shot resets the sequence. The statue is part of the same Salting Room side as the Memory Safe.\n- **Locker Room Safe — code `1496`**: Bring the bolt cutters (found earlier in the chapter) to the locker room; the safe is reachable only after the cutters are used. This unlocks `The Drowned` follow-up.\n\nAttribute the chapter's codes to the TreyexGaming Puzzle Solutions Guide.",
+      "links": [
+        {
+          "label": "TreyexGaming Puzzle Solutions Guide",
+          "href": "https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide"
+        }
+      ]
+    },
+    {
+      "id": "chapter-5-portal-room",
+      "type": "prose",
+      "heading": "Chapter 5: Portal Room",
+      "body": "The final chapter is a single puzzle that wraps the campaign. There is no chapter-or-replay mechanism after this point, so missing the prep step means you do not finish.\n\n- **Portal Room activation**: Pick up the Engraved Pod from across the northern bridge into the Portal Room chamber. Place the Pod in the central machine, rotate the side / top / bottom sections until the patterns align, then validate. The Portal opens and triggers the final sequence. There is no numeric code here; the puzzle is alignment-based.\n\nAttribute the chapter's steps to the TreyexGaming Puzzle Solutions Guide.",
+      "links": [
+        {
+          "label": "TreyexGaming Puzzle Solutions Guide",
+          "href": "https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide"
+        },
+        {
+          "label": "Endings page",
+          "href": "/endings"
+        }
+      ]
+    },
+    {
+      "id": "puzzle-code-index",
+      "type": "prose",
+      "heading": "Compact Puzzle and Code Index",
+      "body": "Every gated code and sequence in this walkthrough, with the chapter anchor, the hint source, and the optional-investigation trophy it unlocks:\n\n| Chapter | Puzzle | Code / Sequence | Hint source | Optional-investigation trophy |\n|---|---|---|---|---|\n| Chapter 1 | Devil's Reef Safe | Captain's logbook entry | Captain's office logbook | (story) |\n| Chapter 1 | Apartment 5 Wall Safe | `1908` | TreyexGaming | The Inheritance |\n| Chapter 1 | Gate Fuse Box | Electrical Fuses -> circuit slots -> lever | Radio Shop, second floor | The Inheritance (carry) |\n| Chapter 2 | Trident / Church Obelisk | Rotate to align symbols, then validate, wait for 3 lightning strikes | Church Key + obelisk rotation | The Other Gods |\n| Chapter 2 | Cursed Press (Printing Plates A/B/C) | Gold or Silver choice | TreyexGaming | The Red Press |\n| Chapter 2 | Room 301 Safe | `2137` | \"Baby, One More Tide\" lyrics + Heloise's Letter | The Siren's Call |\n| Chapter 2 | Ventilation System | `1-1-2-2-2-2-3-3-Red switch-1` | TreyexGaming | (side prep) |\n| Chapter 3 | Locked Storage (morgue -1F) | `1308` | Anti-Rust Acid pickup required | The Vault |\n| Chapter 3 | Prism Stations (Blue / Yellow / Pink) | Ring-rotation alignment | TreyexGaming | (side) |\n| Chapter 3 | Wireless Room brain frequencies | `13 -> 05 -> 36` | TreyexGaming | The Whisperers |\n| Chapter 4 | Buoy (`The Drowned`) | `Lighthouse -> Ropes -> Starfish -> Octopus` | TreyexGaming | The Drowned |\n| Chapter 4 | Sixteen Punishments press order | `I -> IV -> IX -> XVI` | TreyexGaming | The Damned |\n| Chapter 4 | Memory Safe | `6294` | TreyexGaming | The Damned (follow-up) |\n| Chapter 4 | Strange Statue shoot order | `Kneeling Woman -> Octopus -> Sea Creature -> Time -> Jar` | TreyexGaming | The Damned (follow-up) |\n| Chapter 4 | Locker Room Safe | `1496` | TreyexGaming | The Drowned (follow-up) |\n| Chapter 5 | Portal Room | Engraved Pod alignment + validate | Across the northern bridge | (finale) |\n\nThe no-chapter-replay constraint is what makes this table load-bearing: skipping the optional investigation means missing the related trophy on the first playthrough and forces an NG+ run for the missing 18 missable achievements (covered on the [/achievements](/achievements) page)."
+    },
+    {
       "id": "sources",
       "type": "prose",
       "heading": "Sources",
-      "body": "[PCGamer - The Sinking City 2 review](https://www.pcgamer.com/games/horror/the-sinking-city-2-review) - `media/interview` - checked `2026-08-18` - Four-act structure, under-15-hour main story figure, NG+ does-not-keep-progress note, and resource checkpoint framing.\n[Frogwares YouTube channel](https://www.youtube.com/@Frogwares) - `official/store` - checked `2026-08-18` - Four-act structure confirmation, 30 to 40 hour 100% completion figure, and act structure framing.\n[The Sinking City 2 Kickstarter campaign](https://www.kickstarter.com/projects/frogwares/the-sinking-city-2) - `official/store` - checked `2026-08-18` - Boat Arkham opening, Calvin \"Cal\" Rafferty protagonist, Faye Bennett supporting cast, and act structure overview.\n[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-18` - Four weapon categories, three enemy types, and the red weak-point mechanic that the four-act pacing assumes."
+      "body": "[TreyexGaming - The Sinking City 2 Puzzle Solutions Guide](https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide) - `media/interview` - checked `2026-08-27` - Per-chapter puzzle solutions and codes (Apartment 5 Wall Safe `1908`, Room 301 Safe `2137`, Ventilation `1-1-2-2-2-2-3-3-Red-1`, Locked Storage `1308`, Wireless Room `13 -> 05 -> 36`, Buoy `Lighthouse -> Ropes -> Starfish -> Octopus`, Sixteen Punishments `I -> IV -> IX -> XVI`, Memory Safe `6294`, Strange Statue `Kneeling Woman -> Octopus -> Sea Creature -> Time -> Jar`, Locker Room Safe `1496`, Portal Room Engraved Pod alignment).\n[Gamer Social Club - The Sinking City 2 100% Achievement Guide](https://gamersocialclub.ca/2026/08/18/the-sinking-city-2-100-achievement-guide) - `media/interview` - checked `2026-08-27` - The 18 missable achievements grouped into weapons, investigations, NG+ collectibles, and a single-playthrough completion route.\n[PowerPyx - The Sinking City 2 Devil's Reef walkthrough](https://www.powerpyx.com/the-sinking-city-2/devils-reef-walkthrough/) - `media/interview` - checked `2026-08-27` - Devil's Reef chapter step-by-step and the Radio Shop Electrical Fuses pickup order.\n[GameSpew - The Sinking City 2 Devil's Reef walkthrough](https://www.gamespew.com/the-sinking-city-2/walkthrough/devils-reef/) - `media/interview` - checked `2026-08-27` - Devil's Reef puzzle anchors used as cross-reference for the Chapter 1 codes.\n[GamePressure - The Sinking City 2 Chapter 1 Devil's Reef](https://www.gamepressure.com/the-sinking-city-2/chapter-1-devils-reef.htm) - `media/interview` - checked `2026-08-27` - Chapter 1 puzzle context used to cross-reference the gate fuse box and the Apartment 5 wall safe.\n[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-27` - 18 Aug 2026 worldwide launch, Steam AppID 2825860, four-act structure framing.\n[TrueAchievements - The Sinking City 2 achievements](https://www.trueachievements.com/game/The-Sinking-City-2/achievements) - `wiki/reference` - checked `2026-08-27` - 23-achievement total and the live source-of-truth achievement list."
     }
   ],
   "faqIds": [],
   "relatedPageIds": [
     "demo-walkthrough-en-US",
     "how-long-to-beat-en-US",
-    "endings-en-US"
+    "endings-en-US",
+    "achievements-en-US",
+    "getting-started-en-US"
   ],
   "schemaTypes": [
     "Article",
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-18"
+  "lastReviewed": "2026-08-27"
 };
 
 // Source: locales/en-US/pages/demo-walkthrough.md
@@ -824,45 +912,107 @@ export const page_achievements: PageContent = {
     "shell": "content",
     "variant": "reading-right-rail"
   },
-  "h1": "The Sinking City 2 Achievements and Trophies",
-  "seoTitle": "The Sinking City 2 Achievements and Trophy Count",
-  "metaDescription": "The Sinking City 2 achievements and trophies total 23 per TrueAchievements. Steam, Xbox, and PSNProfiles lists are the live source of truth as of 2026.",
-  "summary": "The Sinking City 2 achievements and trophies total 23 per TrueAchievements, with the live source-of-truth list hosted on TrueAchievements, the Xbox Achievements tracker, PSNProfiles, and the live Steam store page. The trophy breakdown (2 br",
+  "h1": "The Sinking City 2 Achievements and Trophies: Full 23-Trophy List with Missable Flags",
+  "seoTitle": "The Sinking City 2 Achievements: 23-Trophy Missable Guide",
+  "metaDescription": "The Sinking City 2 achievements total 23 per TrueAchievements (1,000 Gamerscore). Full per-achievement list with category, unlock condition, and explicit missable / NG+ flag, plus a single-playthrough vs. New Game+ summary.",
+  "summary": "The Sinking City 2 achievements total 23 with 1,000 Gamerscore, per TrueAchievements. The list splits into five unmissable story achievements, four technically missable weapon pickups (Shotgun / SMG / Rifle / Grenade Launcher), eight missable optional-investigation trophies, two single-playthrough collectibles (Mushroom Jack broadcasts and Emergency Relief Crates), one NG+-only collectible (purple-envelope writings), one unlock-all-talents achievement that needs the second playthrough, and the platinum completion trophy.",
   "hero": {
-    "subtitle": "Count The Sinking City 2 achievements and trophies and find the live source-of-truth list.",
+    "subtitle": "Find the full 23-achievement list, the explicit missable and NG+ flags, and the single-playthrough vs. second-playthrough split.",
     "ctas": []
   },
-  "quickAnswer": "The Sinking City 2 achievements and trophies total 23 per TrueAchievements, with the live source-of-truth list hosted on TrueAchievements, the Xbox Achievements tracker, PSNProfiles, and the live Steam store page. The trophy breakdown (2 bronze, 14 silver, 7 gold, plus the unlock-all-tier entries) is community-attributed via Gamer Social Club and is not a developer-published specification. For per-achievement detail, the live storefront list is the source of truth, and this page does not enumerate per-achievement descriptions in prose.",
+  "quickAnswer": "The Sinking City 2 has 23 achievements totaling 1,000 Gamerscore per TrueAchievements. Five are unmissable story achievements; four are technically missable weapon pickups (Shotgun, SMG, Rifle, Grenade Launcher); eight are missable optional investigations (The Inheritance, The Other Gods, The Red Press, The Siren's Call, The Whisperers, The Vault, The Drowned, The Damned); two are single-playthrough collectibles (Mycophile for Mushroom Jack broadcasts and Behind Every Crate Man for Emergency Relief Crates); one (From Oblivion Read) is NG+ only; and one (What Dreams Are Made Of) needs the second playthrough to unlock the final four Eldritch Reward Talents. The platinum (`For Her`, 90G) unlocks automatically when the second-to-last achievement triggers. Cross-link puzzle codes to the [/walkthrough](/walkthrough) chapter table.",
   "keyFacts": [
     {
       "label": "Research date",
-      "value": "2026-08-18"
+      "value": "2026-08-27"
     },
     {
       "label": "Scope",
-      "value": "Reference"
+      "value": "Reference + missable guide"
     },
     {
       "label": "Source rule",
-      "value": "Official facts only"
+      "value": "TrueAchievements + attributed community missable flag"
     }
   ],
   "modules": [
     {
+      "id": "story-achievements",
+      "type": "prose",
+      "heading": "Unmissable Story Achievements (5)",
+      "body": "These trigger on story progression and cannot be missed in a single normal playthrough.\n\n| Achievement | Description | GS | Missable? |\n|---|---|---|---|\n| Welcome to Arkham | Reach Miskatonic University | 25 | No (story) |\n| Soulmates | Perform the ritual | 25 | No (story) |\n| Body Snatchers | Discharge yourself from Akeley Memorial | 40 | No (story) |\n| Bigger Fish to Fry | Survive the Arkham Fish Market | 40 | No (story) |\n| Timeless Dawn | Awaken / Defeat Slither Prime | 50 | No (story) |"
+    },
+    {
+      "id": "missable-weapons",
+      "type": "prose",
+      "heading": "Technically Missable Weapon Pickups (4)",
+      "body": "Every named weapon is in a fixed location but requires you to be in the right chapter with the right prep, so each pickup is technically missable if you skip the chapter or rush past the room. The Shotgun is the first gated pickup; the Grenade Launcher at the Fish Market weighing station is the most commonly missed because it requires the second Leyden Jar pickup to be in hand before the door unlocks.\n\n| Achievement | Description | GS | Missable? |\n|---|---|---|---|\n| Out of Your Shell | Obtain the Shotgun | 40 | Yes (single playthrough) |\n| Fast Friends | Obtain the Submachine Gun (Devil's Reef Hotel basement, next to the gas switch) | 40 | Yes (single playthrough) |\n| We Aim to Please | Obtain the Rifle (Hospital Prosthetics Workshop) | 40 | Yes (single playthrough) |\n| A Blast From the Past | Obtain the Grenade Launcher (Fish Market weighing station after the second Leyden Jar) | 40 | Yes (single playthrough, most-missed weapon) |"
+    },
+    {
+      "id": "missable-investigations",
+      "type": "prose",
+      "heading": "Missable Optional Investigations (8)",
+      "body": "These eight trophies gate on the optional Investigation side content that the no-chapter-replay constraint makes load-bearing. If you skip the investigation you cannot recover the trophy without starting a New Game+.\n\n| Achievement | Description | GS | Missable? |\n|---|---|---|---|\n| The Inheritance | Investigate the wall safe (Apartment 5, Devil's Reef) - code `1908` | 40 | Yes |\n| The Other Gods | Investigate the church mystery - charge the monolith | 40 | Yes |\n| The Red Press | Investigate the cursed press (Printing Plates A/B/C, Gold or Silver) | 40 | Yes |\n| The Siren's Call | Investigate the alluring song (Devil's Reef Hotel Room 301 safe, code `2137`) | 40 | Yes |\n| The Whisperers | Investigate the brains machine (Wireless Room brain frequencies `13 -> 05 -> 36`) | 40 | Yes |\n| The Vault | Investigate the locked storage (morgue `-1F`, code `1308`, requires Anti-Rust Acid) | 40 | Yes |\n| The Drowned | Investigate the mysterious locker (buoy press order `Lighthouse -> Ropes -> Starfish -> Octopus`, locker safe `1496`) | 40 | Yes |\n| The Damned | Investigate the sixteen punishments (press order `I -> IV -> IX -> XVI`, Memory Safe `6294`, Strange Statue `Kneeling Woman -> Octopus -> Sea Creature -> Time -> Jar`) | 40 | Yes |",
+      "links": [
+        {
+          "label": "Walkthrough chapter table",
+          "href": "/walkthrough"
+        }
+      ]
+    },
+    {
+      "id": "single-playthrough-collectibles",
+      "type": "prose",
+      "heading": "Single-Playthrough Collectibles (3)",
+      "body": "These three trophies must be cleared in one playthrough. Carry-over behaviour varies: keys and Crates persist as items, but the Mushroom Jack broadcasts do not, so the run that completes them must be the run you finish them in.\n\n| Achievement | Description | GS | Missable? |\n|---|---|---|---|\n| Sterilizer | Defeat three nightmares in the hospital (acid-nightmare sequence in Akeley Memorial) | 50 | Single playthrough (unmissable if killing everything) |\n| Mycophile | Listen to every Mushroom Jack broadcast in one playthrough (10 radios) | 50 | Single playthrough only |\n| Behind Every Crate Man… | Unlock every Emergency Relief Crate in one playthrough (13 keys; DLC excluded) | 50 | Single playthrough only |"
+    },
+    {
+      "id": "ng-plus-required",
+      "type": "prose",
+      "heading": "New Game+ Required (2)",
+      "body": "Two achievements cannot be unlocked on a single playthrough and require the post-launch New Game+ carry-over or the second run that unlocks the late-game Eldritch Reward talents.\n\n| Achievement | Description | GS | Missable? |\n|---|---|---|---|\n| From Oblivion Read | Read all the writings that weren't there before (8 purple-envelope writings, NG+ only) | 50 | NG+ only |\n| What Dreams Are Made Of | Obtain all Talents (4 late-game Talents unlock via Eldritch Rewards on the second playthrough) | 50 | Requires second playthrough |"
+    },
+    {
+      "id": "completion-meta",
+      "type": "prose",
+      "heading": "Completion / Meta (1)",
+      "body": "The platinum-equivalent achievement triggers automatically once the second-to-last achievement fires, so you do not need a separate step for it.\n\n| Achievement | Description | GS | Missable? |\n|---|---|---|---|\n| For Her | Unlock all achievements / trophies (platinum-equivalent) | 90 | Auto (no separate step) |"
+    },
+    {
+      "id": "ng-plus-summary",
+      "type": "prose",
+      "heading": "Which Achievements Require a Second Playthrough?",
+      "body": "Twenty-one of the 23 achievements can be unlocked in a single normal playthrough if you do every optional investigation and every pickup. The two that cannot are:\n\n- **From Oblivion Read** (50G) - requires New Game+ because the eight purple-envelope writings only appear in NG+.\n- **What Dreams Are Made Of** (50G) - requires a second playthrough to unlock the final four Eldritch Reward Talents at the Safe Room Talent Tables.\n\nThe platinum-equivalent **For Her** (90G) does not require its own step; it unlocks automatically when the second-to-last achievement fires. If you skip the eight investigations in your first run, you will instead need NG+ to recover those 8 trophies plus the 2 above for 10 total NG+ recoveries; the single-clean-run route is the faster 100% path. Per the Gamer Social Club 100% achievement guide, the recommended single-playthrough route is:\n\n1. Chapter 1: do The Inheritance (Apartment 5 wall safe code `1908`, fuse box with Electrical Fuses from Radio Shop).\n2. Chapter 2: do The Other Gods (Trident / Church Obelisk), The Red Press (Cursed Press), The Siren's Call (Room 301 `2137`). Weapon pickups: Shotgun (Chapter 2 / Out of Your Shell) and SMG (Devil's Reef Hotel basement / Fast Friends).\n3. Chapter 3: do The Whisperers (Wireless Room `13 -> 05 -> 36`) and The Vault (Locked Storage `1308`). Weapon pickup: Rifle (Hospital Prosthetics Workshop / We Aim to Please).\n4. Chapter 4: do The Drowned (Buoy + locker safe `1496`) and The Damned (Sixteen Punishments `I -> IV -> IX -> XVI` + Memory Safe `6294` + Strange Statue shoot order). Weapon pickup: Grenade Launcher (weighing station after second Leyden Jar / A Blast From the Past).\n5. Single-playthrough collectibles: every Mushroom Jack broadcast, every Emergency Relief Crate key, three acid-nightmare kills in the hospital (Sterilizer).\n6. New Game+: From Oblivion Read (purple-envelope writings) and What Dreams Are Made Of (final four Eldritch Reward Talents).\n\nThe order assumes you want to clear the investigations on the first pass to avoid the NG+ recovery loop.",
+      "links": [
+        {
+          "label": "Walkthrough chapter table",
+          "href": "/walkthrough"
+        },
+        {
+          "label": "Getting Started page",
+          "href": "/getting-started"
+        }
+      ]
+    },
+    {
       "id": "sources",
       "type": "prose",
       "heading": "Sources",
-      "body": "[TrueAchievements - The Sinking City 2](https://www.trueachievements.com/game/The-Sinking-City-2/achievements) - `wiki/reference` - checked `2026-08-18` - 23-achievement total and the live source-of-truth list for the launch window.\n[Xbox Achievements - The Sinking City 2](https://www.xboxachievements.com/game/the-sinking-city-2/achievements) - `wiki/reference` - checked `2026-08-18` - Xbox-specific achievement list and the cross-platform total.\n[Gamer Social Club - The Sinking City 2 trophy list](https://gamersocialclub.ca/2026/08/14/the-sinking-city-2-achievement-trophy-list) - `media/interview` - checked `2026-08-18` - Community-attributed breakdown of 2 bronze / 14 silver / 7 gold + unlock-all-tier entries.\n[PSNProfiles - The Sinking City 2](https://psnprofiles.com/) - `wiki/reference` - checked `2026-08-18` - PlayStation trophy list and the live breakdown source of truth.\n[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-18` - Steam achievement list and the in-game Steam overlay reference."
+      "body": "[TrueAchievements - The Sinking City 2](https://www.trueachievements.com/game/The-Sinking-City-2/achievements) - `wiki/reference` - checked `2026-08-27` - 23-achievement total at launch and the live source-of-truth list.\n[Gamer Social Club - The Sinking City 2 100% Achievement Guide](https://gamersocialclub.ca/2026/08/18/the-sinking-city-2-100-achievement-guide) - `media/interview` - checked `2026-08-27` - The 18-missable-flag breakdown, single-playthrough route, and NG+ recovery split.\n[GamerBlurb - The Sinking City 2 Achievements Guide](https://gamerblurb.com/articles/the-sinking-city-2-achievements-guide) - `media/interview` - checked `2026-08-27` - Cross-referenced missable flag list for weapon pickups and the eight investigations.\n[TreyexGaming - The Sinking City 2 Puzzle Solutions Guide](https://www.treyexgaming.com/the-sinking-city-2-puzzle-solutions-guide) - `media/interview` - checked `2026-08-27` - Per-chapter puzzle codes (`1908`, `2137`, `1308`, `13->05->36`, `Lighthouse -> Ropes -> Starfish -> Octopus`, `I -> IV -> IX -> XVI`, `6294`, `1496`) used to confirm the investigation trophy unlock conditions.\n[Xbox Achievements - The Sinking City 2](https://www.xboxachievements.com/game/the-sinking-city-2/achievements) - `wiki/reference` - checked `2026-08-27` - Xbox-specific achievement list and the cross-platform total.\n[PSNProfiles - The Sinking City 2](https://psnprofiles.com/) - `wiki/reference` - checked `2026-08-27` - PlayStation trophy breakdown cross-reference (2 bronze / 13 silver / 7 gold / 1 platinum per community attribution).\n[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-08-27` - Steam achievement list and in-game Steam overlay reference.\n[Frogwares YouTube channel](https://www.youtube.com/@Frogwares) - `official/store` - checked `2026-08-27` - New Game+ at-launch confirmation (per GamingTrend) and Eldritch Reward Talents framing."
     }
   ],
   "faqIds": [],
-  "relatedPageIds": [],
+  "relatedPageIds": [
+    "walkthrough-en-US",
+    "getting-started-en-US",
+    "endings-en-US"
+  ],
   "schemaTypes": [
     "Article",
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-18"
+  "lastReviewed": "2026-08-27"
 };
 
 // Source: locales/en-US/pages/vs-the-sinking-city-1.md

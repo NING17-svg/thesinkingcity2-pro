@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-08-27 - Chapter walkthrough puzzle codes + 23-achievement missable guide
+
+- Task: Third content update for thesinkingcity2.pro after launch acceptance; central task `2026-08-27-thesinkingcity2-pro-chapter-walkthrough-puzzles-achievements-100-percent`.
+- Files changed: `src/data/generated-pages.ts` (`page_walkthrough` and `page_achievements`), `CONTENT_INDEX.md` (rows added for `/walkthrough` and `/achievements`; Content Clusters and Internal Linking Map refreshed).
+- URLs affected: `/walkthrough`, `/achievements`.
+- Content changed: `/walkthrough` is now anchored per chapter (Devil's Reef, Akeley Memorial Hospital, Redemption Church, Fish Market, Portal Room) with a compact puzzle-code table that names every code/sequence, hint source, and the optional-investigation trophy it unlocks (`1908` Apartment 5 wall safe, Devil's Reef safe from the Captain's logbook, Gate Fuse Box with Electrical Fuses from Radio Shop, Trident obelisk rotation, Cursed Press Gold/Silver choice with Printing Plates A/B/C, Room 301 safe `2137`, Ventilation `1-1-2-2-2-2-3-3-Red-1`, Locked Storage `1308` with Anti-Rust Acid on -1F, three Prism Stations for Blue/Yellow/Pink, Wireless Room brain frequencies `13 -> 05 -> 36`, Buoy `Lighthouse -> Ropes -> Starfish -> Octopus`, Sixteen Punishments `I -> IV -> IX -> XVI`, Memory Safe `6294`, Strange Statue shoot order `Kneeling Woman -> Octopus -> Sea Creature -> Time -> Jar`, Locker Room Safe `1496`, Portal Room Engraved Pod alignment). `/achievements` now lists all 23 with category, Gamerscore-equivalent, unlock condition, and explicit missable / NG+ flags, split into unmissable story achievements (Welcome to Arkham, Soulmates, Body Snatchers, Bigger Fish to Fry, Timeless Dawn); technically missable weapon pickups (Shotgun / SMG / Rifle / Grenade Launcher); eight missable investigations (The Inheritance, The Other Gods, The Red Press, The Siren's Call, The Whisperers, The Vault, The Drowned, The Damned); single-playthrough collectibles (Sterilizer three acid nightmares, Mycophile 10 Mushroom Jack broadcasts, Behind Every Crate Man 13 Emergency Relief Crate keys); NG+ required (From Oblivion Read 8 purple-envelope writings, What Dreams Are Made Of all Talents via Eldritch Rewards); and the platinum For Her 90G. A "Which Achievements Require a Second Playthrough?" summary closes the page with the recommended single-playthrough route.
+- Verification: `npm run verify` (typecheck, lint, template, content, indexnow, build, rendered SEO) to be passed locally.
+- IndexNow: target-site script `npm run indexnow:submit -- --submit --site-url https://thesinkingcity2.pro --url https://thesinkingcity2.pro/walkthrough --url https://thesinkingcity2.pro/achievements` to be invoked after live verification.
+
 ### 2026-08-25 - Static Assets deployment migration
 
 - Task: Replace the OpenNext Worker runtime with Next.js static export served directly by Cloudflare Workers Static Assets.
