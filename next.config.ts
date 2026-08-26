@@ -1,22 +1,11 @@
 import type { NextConfig } from "next";
-import { dirname } from "node:path";
-import { fileURLToPath } from "node:url";
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: dirname(fileURLToPath(import.meta.url)),
-  poweredByHeader: false,
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-          { key: "X-Frame-Options", value: "SAMEORIGIN" },
-        ],
-      },
-    ];
+  output: "export",
+  images: {
+    unoptimized: true,
   },
+  poweredByHeader: false,
 };
 
 export default nextConfig;

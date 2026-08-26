@@ -92,6 +92,8 @@ const rootLayoutSource = readFileSync(resolve(process.cwd(), "src/app/layout.tsx
 const manifestSource = readFileSync(resolve(process.cwd(), "src/app/manifest.ts"), "utf8");
 const iconPath = resolve(process.cwd(), "src/app/icon.svg");
 const nextConfigSource = readFileSync(resolve(process.cwd(), "next.config.ts"), "utf8");
+const wranglerSource = readFileSync(resolve(process.cwd(), "wrangler.jsonc"), "utf8");
+const staticHeadersSource = readFileSync(resolve(process.cwd(), "public/_headers"), "utf8");
 const globalStylesSource = readFileSync(resolve(process.cwd(), "src/app/globals.css"), "utf8");
 const headerSource = readFileSync(
   resolve(process.cwd(), "src/components/layout/Header.tsx"),
@@ -135,15 +137,33 @@ if (
 ) {
   fail("web manifest is missing the reusable SVG icon");
 }
+if (!nextConfigSource.includes('output: "export"')) {
+  fail("next config must use static export");
+}
+if (!nextConfigSource.includes("unoptimized: true")) {
+  fail("static export must disable the Next.js runtime image optimizer");
+}
+if (nextConfigSource.includes("async headers()")) {
+  fail("static export must not rely on Next.js runtime headers");
+}
 for (const header of [
-  'key: "X-Content-Type-Options"',
-  'value: "nosniff"',
-  'key: "Referrer-Policy"',
-  'value: "strict-origin-when-cross-origin"',
-  'key: "X-Frame-Options"',
-  'value: "SAMEORIGIN"',
+  "X-Content-Type-Options: nosniff",
+  "Referrer-Policy: strict-origin-when-cross-origin",
+  "X-Frame-Options: SAMEORIGIN",
 ]) {
-  if (!nextConfigSource.includes(header)) fail(`next config is missing security header ${header}`);
+  if (!staticHeadersSource.includes(header)) fail(`public/_headers is missing security header ${header}`);
+}
+for (const deploymentMarker of [
+  '"directory": "./out"',
+  '"not_found_handling": "404-page"',
+  '"html_handling": "auto-trailing-slash"',
+]) {
+  if (!wranglerSource.includes(deploymentMarker)) {
+    fail(`wrangler config is missing static asset setting ${deploymentMarker}`);
+  }
+}
+if (wranglerSource.includes('"main"') || wranglerSource.includes('"binding": "ASSETS"')) {
+  fail("static guide sites must not configure a Worker script or assets binding");
 }
 if (
   headerSource.includes("buildSearchIndex") ||

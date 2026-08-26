@@ -6,6 +6,8 @@ import {
 import { absoluteUrl } from "@/lib/urls";
 import type { PageContent } from "@/types/content";
 
+export const dynamic = "force-static";
+
 export function buildSitemapEntries(
   pages: PageContent[],
 ): MetadataRoute.Sitemap {

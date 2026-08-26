@@ -4,6 +4,8 @@ import { PageRenderer } from "@/components/pages/PageRenderer";
 import { getIndexablePages, getPageByUrl } from "@/lib/content";
 import { metadataForPage } from "@/lib/seo";
 
+export const dynamicParams = false;
+
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -12,10 +14,14 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return getIndexablePages()
+  const params = getIndexablePages()
     .map((page) => page.url.split("/").filter(Boolean))
     .filter((segments) => segments.length > 1)
     .map(([slug, ...segments]) => ({ slug, segments }));
+
+  return params.length > 0
+    ? params
+    : [{ slug: "__static_export_placeholder__", segments: ["__placeholder__"] }];
 }
 
 function routePath(slug: string, segments: string[]): string {

@@ -1,15 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "thesinkingcity2-pro",
-  "main": ".open-next/worker.js",
-  "compatibility_date": "2026-06-18",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_date": "2026-08-25",
   "assets": {
-    "directory": ".open-next/assets",
-    "binding": "ASSETS"
-  },
-  "observability": {
-    "enabled": true
+    "directory": "./out",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
   },
   "vars": {
     "NEXT_PUBLIC_SITE_URL": "https://thesinkingcity2.pro",

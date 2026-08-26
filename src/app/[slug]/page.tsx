@@ -4,6 +4,8 @@ import { PageRenderer } from "@/components/pages/PageRenderer";
 import { getIndexablePages, getPageByUrl } from "@/lib/content";
 import { metadataForPage } from "@/lib/seo";
 
+export const dynamicParams = false;
+
 interface PageProps {
   params: Promise<{
     slug: string;

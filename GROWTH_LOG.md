@@ -6,6 +6,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-08-25 - Static Assets deployment migration
+
+- Task: Replace the OpenNext Worker runtime with Next.js static export served directly by Cloudflare Workers Static Assets.
+- URLs affected: None; route, content, metadata, navigation, schema, titles, H1s, canonicals, and internal-link roles are unchanged.
+- Runtime: Production output is `out/`; `wrangler.jsonc` has no Worker `main`, and fixed security headers are served from `public/_headers`.
+- Verification: Full local verification and production public checks are required before the migration is considered complete.
+
 ### 2026-08-21 - Post-launch upscaling / DualSense / collision FAQ cluster
 
 - Task: Second content update for thesinkingcity2.pro after launch acceptance; central task `2026-08-21-thesinkingcity2-pro-post-launch-upscaling-dualsense-and-collision-faq-cluster`.

@@ -4,7 +4,7 @@
 
 `example.com` is a generated game guide site. After launch, treat the generated project as a live content property, not as the central workflow repo or a template.
 
-The site uses Next.js App Router, TypeScript, data-driven content in `src/data`, generated metadata, JSON-LD, sitemap, robots, and Cloudflare Workers via OpenNext.
+The site uses Next.js App Router, TypeScript, data-driven content in `src/data`, generated metadata, JSON-LD, sitemap, robots, and Next.js static export deployed through Cloudflare Workers Static Assets. Ordinary page requests must not be routed through OpenNext or another Worker JS runtime.
 
 ## Mandatory Agent Workflow
 
@@ -34,6 +34,7 @@ A growth-relevant task is not complete until `GROWTH_LOG.md` is updated.
 - Every localized page must declare `translationKey`, `locale`, `routeKind`, `slug`, and final `url`; pages sharing a `translationKey` are hreflang alternates. Every declared locale also needs Header/Footer labels in `src/data/navigation.ts`.
 - Entity families use one base fact package from `src/data/entities.ts`; do not duplicate collection per locale. Locale copy changes labels and display text, not the underlying fact boundary.
 - Preserve existing URLs unless there is a deliberate redirect plan.
+- Preserve the static deployment contract: `next.config.ts` uses `output: "export"`, `wrangler.jsonc` serves `./out` with no `main` Worker script, dynamic routes are fully enumerated at build time, and `public/_headers` owns the fixed security response headers.
 - Every new page must be reachable through related links, homepage modules, nav, or an obvious hub page.
 - Legal and trust pages stay factual and plain.
 
