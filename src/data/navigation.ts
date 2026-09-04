@@ -24,6 +24,12 @@ const pageLabels: Record<string, string> = {
   "achievements": "Achievements",
   "vs-the-sinking-city-1": "Vs The Sinking City 1",
   "updates-dlc": "Updates & DLC",
+  "new-game-plus": "New Game Plus",
+  "talents": "Talents",
+  "sanity": "Sanity & Mind's Eye",
+  "bosses": "Bosses",
+  "inventory-expansions": "Inventory Expansions",
+  "holloway-manor": "Holloway Manor DLC",
 };
 
 function buildLabel(page: PageContent): string {
@@ -49,9 +55,14 @@ const worldAndCodex: string[] = [
   "setting-arkham",
   "enemies",
   "weapons",
+  "talents",
+  "sanity",
+  "bosses",
   "achievements",
   "endings",
   "vs-the-sinking-city-1",
+  "new-game-plus",
+  "inventory-expansions",
 ];
 
 const status: string[] = ["updates-dlc"];
@@ -89,7 +100,7 @@ export const footerNavigation: LocalizedNavigationItem[] = [
 ];
 
 function updatesDlcOnly(): string[] {
-  return ["updates-dlc"];
+  return ["updates-dlc", "holloway-manor"];
 }
 
 export function navigationLabel(

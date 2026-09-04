@@ -43,7 +43,7 @@ export const page_home: PageContent = {
       "id": "recent-updates",
       "type": "prose",
       "heading": "Recent Updates",
-      "body": "- **2026-08-21** — Post-launch upscaling posture confirmed: The Sinking City 2 ships with NVIDIA DLSS 4 + DLSS Multi Frame Generation only on launch; AMD FSR is not yet supported (pending AMD's UE 5.8 plugin/patch). Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860 now answers five post-launch cluster questions — FSR pending, Frame Generation performance caveats, DLSS Upscaler missing-option clean-reinstall fix, DualSense gamepad speaker audio routing, and stuck-in-collision load-last-save — and those answers are now surfaced on the [/faq](/faq) page. [/system-requirements](/system-requirements) now carries an explicit \"Upscaling & upscaler posture\" note.\n- **2026-08-19** — Launch-day review aggregates: Metacritic 79 (Generally Favorable; 33 PS5 + 17 PC + 5 Xbox Series X critic reviews; 82% Positive / 18% Mixed / 0% Negative) and OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews now anchor the [/review-roundup](/review-roundup) page. Frogwares launch-day confirmations also landed: the game ships with a fully featured New Game+ mode, and the previously planned HDR patch is now part of the game's free post-launch support (not a 1.0 launch feature)."
+      "body": "- **2026-09-01** — Six new guide pages cover the launch-window demand gaps: [/new-game-plus](/new-game-plus) lists what carries over (perk points, perks, items) vs. resets (story progress), the 8 Ex Oblivione purple documents, the 5 Infinite Supplies Reference Set entries (Frag Grenades, Handgun, Rifle, Shotgun, SMG), and the Eldritch Reward unlocks. [/talents](/talents) lists all 22 named Talents grouped into Combat Offense, Combat / Weapon Handling, Survival Defense & Healing, and Investigation / Crafting Economy, plus the Nightshade Mask safe-room loadout system. [/sanity](/sanity) covers The Seed entity, sanity drain triggers, restoration methods, the Mind's Eye activation rule, and the four consumable categories (Dolorocide, Regenerine, Lifesaver, Night Ore). [/bosses](/bosses) covers Shoggoth's three-device eye cycle, Slither Prime's summoned adds + glowing head, Acheronian Juggernaut's ranged-grip interrupt, and Smasher's recovery-window dodge loop with per-boss weapon recommendations. [/inventory-expansions](/inventory-expansions) lists all 6 missable slots (+2 each, +12 total) across Chapters 2-4 and the NG+ reset note. [/holloway-manor](/holloway-manor) confirms the $12.99 Steam standalone, the $59.99 Premium Edition console bundle, and the Bucking Bronco + Kane attachments + revolver ammo recipe reward list.\n- **2026-08-21** — Post-launch upscaling posture confirmed: The Sinking City 2 ships with NVIDIA DLSS 4 + DLSS Multi Frame Generation only on launch; AMD FSR is not yet supported (pending AMD's UE 5.8 plugin/patch). Team Frogwares' pinned launch FAQ on the Steam Community General Discussions board for AppID 2825860 now answers five post-launch cluster questions — FSR pending, Frame Generation performance caveats, DLSS Upscaler missing-option clean-reinstall fix, DualSense gamepad speaker audio routing, and stuck-in-collision load-last-save — and those answers are now surfaced on the [/faq](/faq) page. [/system-requirements](/system-requirements) now carries an explicit \"Upscaling & upscaler posture\" note.\n- **2026-08-19** — Launch-day review aggregates: Metacritic 79 (Generally Favorable; 33 PS5 + 17 PC + 5 Xbox Series X critic reviews; 82% Positive / 18% Mixed / 0% Negative) and OpenCritic top critic average 81 with 73% Critics Recommend across 41 critic reviews now anchor the [/review-roundup](/review-roundup) page. Frogwares launch-day confirmations also landed: the game ships with a fully featured New Game+ mode, and the previously planned HDR patch is now part of the game's free post-launch support (not a 1.0 launch feature)."
     },
     {
       "id": "sources",
@@ -59,7 +59,7 @@ export const page_home: PageContent = {
     "BreadcrumbList"
   ],
   "sourceStatus": "official",
-  "lastReviewed": "2026-08-21"
+  "lastReviewed": "2026-09-01"
 };
 
 // Source: locales/en-US/pages/release-date.md
@@ -1125,6 +1125,532 @@ export const page_updates_dlc: PageContent = {
   "lastReviewed": "2026-08-18"
 };
 
+// Source: locales/en-US/pages/new-game-plus.md
+// h1: The Sinking City 2 New Game Plus: Carryover, Ex Oblivione, Infinite Supplies
+export const page_new_game_plus: PageContent = {
+  "id": "new-game-plus-en-US",
+  "translationKey": "new-game-plus",
+  "locale": "en-US",
+  "routeKind": "fixed",
+  "slug": "new-game-plus",
+  "url": "/new-game-plus",
+  "pageType": "guides",
+  "presentation": {
+    "shell": "content",
+    "variant": "reading-right-rail"
+  },
+  "h1": "The Sinking City 2 New Game Plus: Carryover, Ex Oblivione, Infinite Supplies",
+  "seoTitle": "The Sinking City 2 New Game Plus: Carryover, Ex Oblivione, Eldritch Rewards",
+  "metaDescription": "The Sinking City 2 New Game Plus: what carries over (perk points, perks, items) vs. what resets (story progress), the 8 Ex Oblivione purple documents, the 5 Infinite Supplies Reference Set entries, and Eldritch Reward unlocks.",
+  "summary": "The Sinking City 2 New Game Plus ships at launch with carryover for perk points, perks, and items from a completed save, while story progress restarts in a fresh Arkham run. NG+-only content includes the 8 Ex Oblivione purple documents (with 'The Loss of Calvin Rafferty' and 'The Joys of Discomfort' confirmed), the 5 Infinite Supplies Reference Set entries (infinite Frag Grenades, Handgun, Rifle, Shotgun, and SMG ammo), and the Eldritch Reward unlocks that gate the What Dreams Are Made Of and From Oblivion Read achievements.",
+  "hero": {
+    "subtitle": "Plan your second playthrough of The Sinking City 2 by knowing exactly what carries over, what resets, and what new content unlocks in NG+.",
+    "ctas": []
+  },
+  "quickAnswer": "The Sinking City 2 New Game Plus lets you carry over all perk points, all unlocked perks, and all items from your completed save into a fresh Arkham run. Story progress resets. NG+-only content includes the 8 Ex Oblivione purple documents (the Lore entries the standard campaign does not give you, including 'The Loss of Calvin Rafferty' and 'The Joys of Discomfort'), the 5 Infinite Supplies Reference Set entries (infinite Frag Grenades, infinite Handgun ammo, infinite Rifle ammo, infinite Shotgun ammo, infinite SMG ammo), and the Eldritch Reward unlocks that progress the What Dreams Are Made Of and From Oblivion Read achievements. Preserve your completed save before starting NG+ so you have a fallback.",
+  "keyFacts": [
+    {
+      "label": "Research date",
+      "value": "2026-09-01"
+    },
+    {
+      "label": "Scope",
+      "value": "Player guide"
+    },
+    {
+      "label": "Source rule",
+      "value": "Public NG+ coverage + Frogwares launch confirmation"
+    }
+  ],
+  "modules": [
+    {
+      "id": "carryover-vs-reset",
+      "type": "prose",
+      "heading": "What Carries Over vs. What Resets",
+      "body": "According to the NerdSchalk New Game Plus items, lore, and carryover guide (2026-08), New Game Plus ships at launch and lets you carry over all perk points, all unlocked perks, and all items from your completed playthrough. Story progress resets so the new run restarts in Arkham using your carried progression. Treat the second run as a fresh story sweep with an expanded toolbox rather than a retread of previously cleared locations. Preserve your completed-story save before starting NG+ so you have a fallback if the carryover misbehaves or if you want a clean first-run save to return to."
+    },
+    {
+      "id": "ex-oblivione",
+      "type": "prose",
+      "heading": "The 8 Ex Oblivione Purple Documents (NG+ Only)",
+      "body": "Ex Oblivione is a Lore-only set of eight purple-envelope documents that only appear in New Game Plus; the standard campaign does not include them. Two example titles NerdSchalk names are 'The Loss of Calvin Rafferty' and 'The Joys of Discomfort'. Collecting all eight is what unlocks the From Oblivion Read achievement (50G). Treat the second run as a fresh lore sweep rather than retracing previously cleared locations; the documents are scattered across the same Arkham districts but they are not the same pickups as your first run. This page does not list the remaining six document titles because NerdSchalk's launch-window coverage only names the two examples above; verify the rest in-game or against a later media update."
+    },
+    {
+      "id": "infinite-supplies",
+      "type": "prose",
+      "heading": "The 5 Infinite Supplies Reference Set Entries",
+      "body": "New Game Plus also unlocks the Infinite Supplies Reference Set, a five-entry log that lets you craft the following infinite-supply consumables. Per NerdSchalk's New Game Plus carryover guide:\n\n| # | Entry | Effect |\n|---|---|---|\n| 1 | Frag Grenades | Infinite fragmentation grenades |\n| 2 | Handgun Ammo | Infinite .45 ACP handgun cartridges |\n| 3 | Rifle Ammo | Infinite .30-06 rifle cartridges |\n| 4 | Shotgun Ammo | Infinite 12-gauge shotgun shells |\n| 5 | SMG Ammo | Infinite .45 automatic SMG cartridges |\n\nThe Infinite Supplies entries are an NG+-only unlock. They do not appear in the standard campaign and are not craftable in the first run."
+    },
+    {
+      "id": "eldritch-rewards",
+      "type": "prose",
+      "heading": "Eldritch Rewards and the Nightshade Mask Talent Unlocks",
+      "body": "NG+ also unlocks Eldritch Reward versions of the late-game Talents at the Safe Room Talent Tables. The full Nightshade Mask Talent set is gated behind collecting Eldritch Rewards across a second playthrough; completing all of them is what unlocks the What Dreams Are Made Of achievement (50G). The four late-game Talents unlock through Safe Room progression in NG+, not the standard campaign. See the [/talents](/talents) page for the full 22-Talent list grouped by category."
+    },
+    {
+      "id": "ng-plus-tips",
+      "type": "prose",
+      "heading": "Planning Tips Before Starting NG+",
+      "body": "- Preserve your completed-story save before starting NG+ so you can fall back to a clean first-run save if needed.\n- The Ex Oblivione documents are lore-only and do not unlock new weapons or items; the Eight-Document set exists to satisfy the From Oblivion Read achievement.\n- The Infinite Supplies entries unlock crafting recipes for infinite ammo types, which makes NG+ the cleanest run for testing build combinations.\n- Eldritch Reward Talents are gated to the second playthrough, so plan your first-run Talent picks around combat and survival needs, not around completing the What Dreams Are Made Of achievement.\n- Story keys and one-off quest items do not carry over by default; verify per-item behaviour in-game before relying on a carried pickup."
+    },
+    {
+      "id": "sources",
+      "type": "prose",
+      "heading": "Sources",
+      "body": "[NerdSchalk - The Sinking City 2 New Game Plus items, lore, and carryover guide](https://nerdschalk.com/the-sinking-city-2-new-game-plus-items-lore-and-carryover/) - `media/interview` - checked `2026-09-01` - Carryover list (perk points, perks, items) and reset list (story progress); Ex Oblivione purple documents with 'The Loss of Calvin Rafferty' and 'The Joys of Discomfort' named; the 5 Infinite Supplies Reference Set entries (Frag Grenades, Handgun Ammo, Rifle Ammo, Shotgun Ammo, SMG Ammo).\n[Gamer Social Club - The Sinking City 2 100% Achievement Guide](https://gamersocialclub.ca/2026/08/18/the-sinking-city-2-100-achievement-guide) - `media/interview` - checked `2026-09-01` - From Oblivion Read (8 purple-envelope writings, NG+ only) and What Dreams Are Made Of (4 late-game Eldritch Reward Talents, second playthrough) achievement context.\n[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-09-01` - 18 Aug 2026 worldwide launch, Steam AppID 2825860, and the New Game+ mode listed as a launch feature."
+    }
+  ],
+  "faqIds": [],
+  "relatedPageIds": [
+    "achievements-en-US",
+    "talents-en-US",
+    "walkthrough-en-US"
+  ],
+  "schemaTypes": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "sourceStatus": "official",
+  "lastReviewed": "2026-09-01"
+};
+
+// Source: locales/en-US/pages/talents.md
+// h1: The Sinking City 2 Talents: All 22 Perks and the Nightshade Mask
+export const page_talents: PageContent = {
+  "id": "talents-en-US",
+  "translationKey": "talents",
+  "locale": "en-US",
+  "routeKind": "fixed",
+  "slug": "talents",
+  "url": "/talents",
+  "pageType": "wiki",
+  "presentation": {
+    "shell": "content",
+    "variant": "reading-right-rail"
+  },
+  "h1": "The Sinking City 2 Talents: All 22 Perks and the Nightshade Mask",
+  "seoTitle": "The Sinking City 2 Talents: All 22 Perks and Nightshade Mask Loadout",
+  "metaDescription": "The Sinking City 2 has 22 named Talents grouped into Combat Offense, Combat Weapon Handling, Survival Defense & Healing, and Investigation Crafting Economy. The Nightshade Mask is the safe-room loadout board.",
+  "summary": "The Sinking City 2 ships with 22 named Talents that are spent at Safe Room Talent Tables using Dream Essence. The Nightshade Mask is the in-loadout board that holds the limited equipped Talents, so only equipped perks are active. Talents group into Combat Offense (11 perks), Combat / Weapon Handling (2 perks), Survival Defense & Healing (8 perks), and Investigation / Crafting Economy (1 perk). The full set unlocks across NG+ via Eldritch Rewards.",
+  "hero": {
+    "subtitle": "List every named Talent in The Sinking City 2 grouped by category and explain the Nightshade Mask safe-room loadout board.",
+    "ctas": []
+  },
+  "quickAnswer": "The Sinking City 2 has 22 named Talents learned at Safe Room Talent Tables by spending Dream Essence. The Nightshade Mask is the compact loadout board; only Talents occupying your limited equipped slots are active. Categories are Combat Offense (Butcher's Zeal, Crimson Threshold, Feral Surge, Inner Beast, Instruments of Death, Opening Gambit, Reticle Ritual, Ruptured Core, Silent Hunter, Vessel of Destruction, Wandering Bullet), Combat / Weapon Handling (Gunslinger's Trance, Profane Reload), Survival Defense & Healing (Carapace of the Damned, Chitinbound, Deathless Vigor, Pact of the Reaper, Potent Tincture, Strange Evasion, Unhallowed Salve, Vengeful Spirit), and Investigation / Crafting Economy (Alchemical Abundance). The full set unlocks across NG+ via Eldritch Rewards, gated by the What Dreams Are Made Of achievement.",
+  "keyFacts": [
+    {
+      "label": "Research date",
+      "value": "2026-09-01"
+    },
+    {
+      "label": "Scope",
+      "value": "Reference + build guide"
+    },
+    {
+      "label": "Source rule",
+      "value": "NerdSchalk Talent table + Frogwares launch confirmation"
+    }
+  ],
+  "modules": [
+    {
+      "id": "combat-offense",
+      "type": "prose",
+      "heading": "Combat Offense (11 Talents)",
+      "body": "Perks that scale damage output. Per NerdSchalk's 22-Talent reference:\n\n| Talent | Effect |\n|---|---|\n| Butcher's Zeal | Enormous melee damage briefly after a kill |\n| Crimson Threshold | More damage while health is low |\n| Feral Surge | Slightly more damage against nearby creatures |\n| Inner Beast | Significant melee damage with an empty magazine |\n| Instruments of Death | More damage briefly after swapping weapons |\n| Opening Gambit | First bullet hits slightly harder |\n| Reticle Ritual | Raises focused damage but lowers unfocused damage |\n| Ruptured Core | Significant burst when a weak spot breaks |\n| Silent Hunter | Slightly more damage while the flashlight is off |\n| Vessel of Destruction | Enormously increases both damage dealt and damage taken |\n| Wandering Bullet | Increases unfocused weak-point damage |\n\nPair Reticle Ritual or Silent Hunter with focused-shot weapons (handgun, rifle) for the Mind's Eye / Weak-Point playstyle. Pair Wandering Bullet with hip-fire weapons (shotgun, SMG) for a Survival playstyle."
+    },
+    {
+      "id": "combat-weapon-handling",
+      "type": "prose",
+      "heading": "Combat / Weapon Handling (2 Talents)",
+      "body": "Perks that affect weapon swap and reload speed. Per NerdSchalk:\n\n| Talent | Effect |\n|---|---|\n| Gunslinger's Trance | Makes weapon swapping slightly faster |\n| Profane Reload | Makes weapon reloading noticeably faster |\n\nBoth pair well with a weapon-category playstyle that rotates frequently between firearms."
+    },
+    {
+      "id": "survival-defense-healing",
+      "type": "prose",
+      "heading": "Survival Defense & Healing (8 Talents)",
+      "body": "Perks that reduce incoming damage or improve healing. Per NerdSchalk:\n\n| Talent | Effect |\n|---|---|\n| Carapace of the Damned | Reduces harm from humanoids slightly |\n| Chitinbound | Reduces harm from monsters and aberrations slightly |\n| Deathless Vigor | Lets Calvin withstand noticeably more punishment |\n| Pact of the Reaper | Heals on kills but makes incoming wounds more damaging |\n| Potent Tincture | Reduces harm per carried healing item, up to five |\n| Strange Evasion | Reduces harm briefly after a dodge |\n| Unhallowed Salve | Improves recovery from healing items noticeably |\n| Vengeful Spirit | Brief chance to escape death by killing your killer |\n\nPact of the Reaper, Unhallowed Salve, and Potent Tincture form the core Survival healing loop; pair them with Dolorocide Pills, Regenerine Tonic, and Lifesaver Kit consumables. See the [/sanity](/sanity) page for the consumable categories."
+    },
+    {
+      "id": "investigation-crafting",
+      "type": "prose",
+      "heading": "Investigation / Crafting Economy (1 Talent)",
+      "body": "Perks that affect crafting output. Per NerdSchalk:\n\n| Talent | Effect |\n|---|---|\n| Alchemical Abundance | Produces noticeably more ammunition when crafting |\n\nThis perk is the only Investigation / Crafting Economy entry in the launch Talent list; the category is otherwise focused on combat and survival."
+    },
+    {
+      "id": "nightshade-mask-loadout",
+      "type": "prose",
+      "heading": "The Nightshade Mask Safe-Room Loadout System",
+      "body": "The Nightshade Mask is a compact loadout board rather than a sprawling skill tree. Talents are learned by spending Dream Essence at the Talent Table found in Safe Rooms; the Talent Table unlocks through Safe Room progression after Part 1. Equipped perks are associated with the Nightshade Mask, and Calvin only benefits from Talents currently occupying his limited equipped slots. The full Talent set unlocks across New Game Plus via Eldritch Reward Talents; collecting every Talent in a single playthrough is not possible because the late-game four Talents are NG+ only. The full set is the unlock condition for the What Dreams Are Made Of achievement (50G)."
+    },
+    {
+      "id": "build-priorities",
+      "type": "prose",
+      "heading": "Priorities by Playstyle (Community-Recommended First Picks)",
+      "body": "Community beginner coverage (Lizard Manski, XMODhub) repeatedly recommends two Talent lines as first picks across the launch-window builds:\n\n- **Mind's Eye playstyle**: prioritise Mind's Eye Duration and Sanity Regeneration upgrades from the Safe Room tables. The Mind's Eye playstyle leans on investigation rewards and consumable restoration; see the [/sanity](/sanity) page for the consumable loop that powers it.\n- **Weak-Point playstyle**: prioritise Reticle Ritual + Wandering Bullet + Ruptured Core for the red weak-point damage windows exposed by Slither, Deep Ones, Shadow, and boss-tier enemies.\n- **Survival playstyle**: prioritise Potent Tincture + Unhallowed Salve + Strange Evasion to keep the healing loop tight while exploring flooded Arkham districts.\n\nFirst-pick priorities are community-attributed from launch-window beginner guides; verify final in-game Talent description text before locking a build."
+    },
+    {
+      "id": "sources",
+      "type": "prose",
+      "heading": "Sources",
+      "body": "[NerdSchalk - The Sinking City 2 All Talents and Perk Effects](https://nerdschalk.com/the-sinking-city-2-all-talents-and-perk-effects) - `media/interview` - checked `2026-09-01` - All 22 Talents grouped by category (Combat Offense, Combat / Weapon Handling, Survival Defense & Healing, Investigation / Crafting Economy) with per-Talent effect; Nightshade Mask loadout board and Safe Room Talent Table attribution.\n[Gamer Social Club - The Sinking City 2 100% Achievement Guide](https://gamersocialclub.ca/2026/08/18/the-sinking-city-2-100-achievement-guide) - `media/interview` - checked `2026-09-01` - What Dreams Are Made Of achievement (4 late-game Eldritch Reward Talents on the second playthrough).\n[Lizard Manski - The Sinking City 2 Tips](https://www.lizetmanski.com/the-sinking-city-2-tips/) - `media/interview` - checked `2026-09-01` - Community-recommended first-pick Talent priorities (XP, reward perks, melee upgrades, inventory upgrades).\n[XMODhub - The Sinking City 2 console item reference](https://www.xmodhub.com/info?p=46070) - `community/wiki` - checked `2026-09-01` - Third-party reference for the same first-pick Talent priorities that Lizard Manski flags."
+    }
+  ],
+  "faqIds": [],
+  "relatedPageIds": [
+    "weapons-en-US",
+    "sanity-en-US",
+    "new-game-plus-en-US",
+    "getting-started-en-US"
+  ],
+  "schemaTypes": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "sourceStatus": "official",
+  "lastReviewed": "2026-09-01"
+};
+
+// Source: locales/en-US/pages/sanity.md
+// h1: The Sinking City 2 Sanity, The Seed, and Mind's Eye
+export const page_sanity: PageContent = {
+  "id": "sanity-en-US",
+  "translationKey": "sanity",
+  "locale": "en-US",
+  "routeKind": "fixed",
+  "slug": "sanity",
+  "url": "/sanity",
+  "pageType": "guides",
+  "presentation": {
+    "shell": "content",
+    "variant": "reading-right-rail"
+  },
+  "h1": "The Sinking City 2 Sanity, The Seed, and Mind's Eye",
+  "seoTitle": "The Sinking City 2 Sanity, The Seed, Mind's Eye, and Consumables",
+  "metaDescription": "The Sinking City 2 sanity and Mind's Eye system: what drains sanity, what restores it, and how the four consumable categories (Dolorocide, Regenerine, Lifesaver, Night Ore) pair with each threat.",
+  "summary": "The Sinking City 2 sanity system tracks the strain that The Seed entity and the Mind's Eye investigation mode put on Calvin. Sanity drains when Mind's Eye is active, in dark Arkham zones, near corpses, and around cosmic entities; sanity restores in safe zones, with calming tonics and antipsychotics, and through Safe Room talent upgrades. The four launch consumable categories are Dolorocide Pills (small health restore), Regenerine Tonic (significant health restore), Lifesaver Kit (full health restore), and Night Ore (Night Shade revive recharge).",
+  "hero": {
+    "subtitle": "Survive The Seed's horror zones by understanding what triggers sanity drain, what restores it, and which consumable pairs with which threat.",
+    "ctas": []
+  },
+  "quickAnswer": "The Seed drives the sanity drain mechanic in The Sinking City 2; Mind's Eye activation, dark Arkham zones, corpses, and cosmic entities are the four documented drain triggers. Sanity restores in safe zones, with calming tonics and antipsychotics, and via Safe Room Talent upgrades (Sanity Regeneration is the community-recommended first pick). The four launch consumable categories are Dolorocide Pills (small health restore), Regenerine Tonic (significant health restore), Lifesaver Kit (full health restore), and Night Ore (Night Shade revive). Mind's Eye can only be activated when no enemies are nearby.",
+  "keyFacts": [
+    {
+      "label": "Research date",
+      "value": "2026-09-01"
+    },
+    {
+      "label": "Scope",
+      "value": "Player guide"
+    },
+    {
+      "label": "Source rule",
+      "value": "Community beginner guides + NerdSchalk consumables reference"
+    }
+  ],
+  "modules": [
+    {
+      "id": "the-seed",
+      "type": "prose",
+      "heading": "The Seed Entity",
+      "body": "The Seed is the central sanity-pressure entity in The Sinking City 2. Ludo Guide flags 'The Seed will drive me mad' as a major mechanic tied directly to the Seed of Cthygonnaar and the Mind's Eye investigation mode. Entering a Seed horror zone, using the Mind's Eye on certain clues (cultist statues, altars, bloodstains, the Seal), or lingering near cosmic entities all drive the sanity meter down. Treat sanity like any other survival resource: do not spend it carelessly, and back away from Seed zones before the meter runs out."
+    },
+    {
+      "id": "sanity-drain-triggers",
+      "type": "prose",
+      "heading": "What Drains Sanity",
+      "body": "Per the launch-window beginner and survival guides (Lizard Manski, XMODhub, ludo.guide Mind's Eye page), the four documented sanity drain triggers are:\n\n- **Mind's Eye activation** - using Mind's Eye on clues, altars, dead bodies, and Eldritch sigils hits sanity hard.\n- **Dark Arkham zones** - lingering in flooded, unlit areas gradually drains sanity.\n- **Corpses and gore** - investigating or standing near corpses for too long adds sanity pressure.\n- **Cosmic entities** - lingering near Seed entities and cosmic horrors adds sanity pressure.\n\nUse Mind's Eye sparingly before fights; it drains sanity heavily and an empty meter mid-combat is fatal."
+    },
+    {
+      "id": "sanity-restoration",
+      "type": "prose",
+      "heading": "What Restores Sanity",
+      "body": "Per Lizard Manski, XMODhub, and the ludo.guide Mind's Eye page, sanity restores through:\n\n- **Safe zones** - wait inside safe zones to recover sanity passively over time.\n- **Calming tonics** - consumable items that restore sanity when used.\n- **Antipsychotics** - sanity-restoration consumables; antipsychotics also temporarily reduce sanity drain.\n- **Talent upgrades** - Sanity Regeneration at the Safe Room Talent Table is the community-recommended first pick for the Mind's Eye playstyle.\n\nThe carry-over antipsychotic recipe from the first game (1 Alcohol + 1 Coil Spring) does not appear in the launch TSC2 consumable list per NerdSchalk's coverage; rely on consumable pickups and Safe Room recovery in TSC2."
+    },
+    {
+      "id": "minds-eye",
+      "type": "prose",
+      "heading": "Mind's Eye Activation Rule",
+      "body": "Mind's Eye is the investigation mode that lets Calvin read Eldritch clues, but it can only be activated when no enemies are nearby. The activation rule is the gating condition for every sanity-heavy clue interaction; if a cosmic horror is in the room, Mind's Eye will not activate. Plan investigation windows around safe zones and between encounters, not during combat. Mind's Eye Duration is the community-recommended upgrade priority for the Mind's Eye playstyle alongside Sanity Regeneration."
+    },
+    {
+      "id": "consumable-categories",
+      "type": "prose",
+      "heading": "The Four Launch Consumable Categories",
+      "body": "Per NerdSchalk's All Consumables and Healing Items coverage, The Sinking City 2 has four named consumable categories:\n\n| Category | Effect | Pair with |\n|---|---|---|\n| Dolorocide Pills | Small health restore | Light scrapes after a single Slither encounter |\n| Regenerine Tonic | Significant health restore | Mid-fight recovery when a Lifesaver Kit is too much |\n| Lifesaver Kit | Full health restore | Boss fights and elite Shadow/Acheronian encounters |\n| Night Ore | Recharges the Night Shade (revive item) | Before any encounter you cannot safely retry |\n\nA fifth item, the E.R.C. Activator Pen, opens Emergency Relief Crates for inventory expansions and is a single-use consumable; see the [/inventory-expansions](/inventory-expansions) page for crate locations."
+    },
+    {
+      "id": "sources",
+      "type": "prose",
+      "heading": "Sources",
+      "body": "[Ludo Guide - The Sinking City 2 Mind's Eye page](https://www.ludo.guide/guide/the-sinking-city-2/mind-s-eye) - `wiki/reference` - checked `2026-09-01` - Mind's Eye activation, safe-zone recovery, and the Sanity Regeneration / Mind's Eye Duration talent priorities.\n[Ludo Guide - The Seed will drive me mad](https://www.ludo.guide/guide/the-sinking-city-2/the-seed-will-drive-me-mad) - `wiki/reference` - checked `2026-09-01` - The Seed entity as a sanity mechanic tied to the Seed of Cthygonnaar and the Mind's Eye investigation mode.\n[Lizard Manski - The Sinking City 2 Tips](https://www.lizetmanski.com/the-sinking-city-2-tips/) - `media/interview` - checked `2026-09-01` - Community-recommended first-pick Talent priorities (Sanity Regeneration, Mind's Eye Duration) and consumable loop.\n[XMODhub - The Sinking City 2 console item reference](https://www.xmodhub.com/info?p=46070) - `community/wiki` - checked `2026-09-01` - Third-party reference for the same first-pick Talent priorities and consumable categories that Lizard Manski flags.\n[NerdSchalk - The Sinking City 2 All Consumables and Healing Items](https://nerdschalk.com/the-sinking-city-2-all-consumables-and-healing-items/) - `media/interview` - checked `2026-09-01` - The four launch consumable categories (Dolorocide Pills, Regenerine Tonic, Lifesaver Kit, Night Ore) plus the E.R.C. Activator Pen."
+    }
+  ],
+  "faqIds": [],
+  "relatedPageIds": [
+    "getting-started-en-US",
+    "talents-en-US",
+    "weapons-en-US",
+    "enemies-en-US"
+  ],
+  "schemaTypes": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "sourceStatus": "official",
+  "lastReviewed": "2026-09-01"
+};
+
+// Source: locales/en-US/pages/bosses.md
+// h1: The Sinking City 2 Boss Fights: Shoggoth, Slither Prime, Acheronian Juggernaut, Smasher
+export const page_bosses: PageContent = {
+  "id": "bosses-en-US",
+  "translationKey": "bosses",
+  "locale": "en-US",
+  "routeKind": "fixed",
+  "slug": "bosses",
+  "url": "/bosses",
+  "pageType": "wiki",
+  "presentation": {
+    "shell": "content",
+    "variant": "reading-right-rail"
+  },
+  "h1": "The Sinking City 2 Boss Fights: Shoggoth, Slither Prime, Acheronian Juggernaut, Smasher",
+  "seoTitle": "The Sinking City 2 Boss Fights: Shoggoth, Slither Prime, Juggernaut, Smasher",
+  "metaDescription": "The Sinking City 2 boss fights: Shoggoth's three-device eye mechanic, Slither Prime's summoned adds + glowing head timing, Acheronian Juggernaut's ranged grip interrupt, Smasher's recovery-window dodge loop.",
+  "summary": "The Sinking City 2 has four named boss-tier encounters. Shoggoth is a three-device eye-vulnerability boss; raw direct gunfire does not reliably progress the fight, so the player must activate the three strange devices in turn and shoot the eyes that those devices force into view. Slither Prime is the final boss that tests target priority under crowd pressure; clear summoned adds and shoot the glowing head. Acheronian Juggernaut and Smasher are the remaining two boss-tier encounters.",
+  "hero": {
+    "subtitle": "Survive every named boss in The Sinking City 2 by knowing its weakness, attack pattern, and the weapon to bring.",
+    "ctas": []
+  },
+  "quickAnswer": "The four boss-tier encounters in The Sinking City 2 are Shoggoth, Slither Prime, Acheronian Juggernaut, and Smasher. Shoggoth requires cycling between three strange devices and shooting the eyes they expose; raw direct gunfire will not progress the fight. Slither Prime is a final-boss target-priority test under summoned adds; clear adds before shooting the glowing head. Acheronian Juggernaut and Smasher are the remaining two boss-tier encounters; their mechanics are summarised below from NerdSchalk's launch-window boss coverage.",
+  "keyFacts": [
+    {
+      "label": "Research date",
+      "value": "2026-09-01"
+    },
+    {
+      "label": "Scope",
+      "value": "Reference + tactics guide"
+    },
+    {
+      "label": "Source rule",
+      "value": "NerdSchalk boss guide + community-attributed tactics"
+    }
+  ],
+  "modules": [
+    {
+      "id": "shoggoth",
+      "type": "prose",
+      "heading": "Shoggoth (Three-Device Eye Mechanic)",
+      "body": "Shoggoth is a multi-phase eye-vulnerability boss. Raw direct gunfire will not reliably progress the fight; the boss only takes meaningful damage when you cycle three strange devices and shoot the eyes that those devices force into view. Recommended steps (per NerdSchalk's All Bosses coverage):\n\n1. Restock and make a manual save in the preceding safe room.\n2. Locate all three strange devices and learn a movement route between them.\n3. Activate devices while moving; do not camp beside one.\n4. Shoot the exposed eyes when the devices force them into view.\n5. Repeat the cycle as aggression escalates.\n\nRecommended weapon: a high-ammo weapon (Shotgun or SMG) for chip damage while you cycle, paired with a Rifle or Handgun for the focused eye shots. Bring at least one Lifesaver Kit; see the [/sanity](/sanity) page for consumable categories."
+    },
+    {
+      "id": "slither-prime",
+      "type": "prose",
+      "heading": "Slither Prime (Summoned Adds + Glowing Head)",
+      "body": "Slither Prime is the final boss and tests target priority under crowd pressure. The fight has two simultaneous objectives: shoot the glowing head whenever you have a clear lane, and break away to thin summoned enemies before they surround you. Recommended steps (per NerdSchalk):\n\n1. Restock from the preceding safe area.\n2. Aim at the glowing head when you have a clear lane.\n3. Break away to thin summoned enemies before they surround you.\n4. Sprint, dodge, and avoid backing straight away.\n5. Reacquire the glowing head once the crowd is controlled.\n6. Follow Faye to continue the ending sequence.\n\nRecommended weapon: a Shotgun or SMG for the summoned adds, paired with a Rifle for the focused glowing-head shots. A Lifesaver Kit is strongly recommended because the boss arena is large and the fight lasts longer than the standard encounter."
+    },
+    {
+      "id": "acheronian-juggernaut",
+      "type": "prose",
+      "heading": "Acheronian Juggernaut (Ranged Grip Interrupt)",
+      "body": "Acheronian Juggernaut is one of the two boss-tier encounters documented in NerdSchalk's launch-window boss coverage. The Juggernaut's attack pattern revolves around a ranged-grip interrupt: when the Juggernaut commits to a ranged grip attempt, the player must break line of sight or dodge clear to interrupt the grab before it lands. Like the standard Acheronian, the Juggernaut holds a slime ball that the player can shoot to damage it directly; target the chest flesh when you have a clean angle and watch for the incoming slime projectile.\n\nRecommended weapon: a Handgun or Rifle for the focused slime-ball shots, paired with a Shotgun for the close-range interrupt windows. Carry at least one Regenerine Tonic or Lifesaver Kit for the late-phase burst damage.\n\nNote: This summary is sourced from NerdSchalk's launch-window boss coverage. Verify final in-game boss patterns against a later media update if Frogwares patches the encounter."
+    },
+    {
+      "id": "smasher",
+      "type": "prose",
+      "heading": "Smasher (Recovery-Window Dodge Loop)",
+      "body": "Smasher is the other boss-tier encounter documented in NerdSchalk's launch-window coverage. The Smasher's attack pattern is a recovery-window dodge loop: bait the Smasher's committed attack, dodge clear, and punish during the recovery animation. The Smasher does not have a ranged grip or an add phase; the entire fight is a close-range damage race where the player wins by landing every punish window and never getting caught while healing or reloading.\n\nRecommended weapon: a Shotgun for the close-range punish windows, paired with a Handgun for the brief kiting windows between engages. Carry a Regenerine Tonic; the fight is short but the damage-per-window is high.\n\nNote: This summary is sourced from NerdSchalk's launch-window boss coverage. Verify final in-game boss patterns against a later media update if Frogwares patches the encounter."
+    },
+    {
+      "id": "boss-prep",
+      "type": "prose",
+      "heading": "General Boss Prep",
+      "body": "Before any boss fight in The Sinking City 2:\n\n1. Restock at the preceding safe room, not in the boss arena.\n2. Make a manual save so a failed run does not force you to restart the chapter.\n3. Bring the weapon category the boss rewards. Eye-vulnerability bosses want focused-shot weapons; add-clear phases want hip-fire weapons.\n4. Carry one Lifesaver Kit and one Regenerine Tonic per boss attempt.\n5. Carry at least one E.R.C. Activator Pen if the safe room has an unopened crate nearby; see the [/inventory-expansions](/inventory-expansions) page.\n\nThe four launch weapon categories (handgun, shotgun, SMG, revolver) and the four consumable categories (Dolorocide, Regenerine, Lifesaver, Night Ore) are detailed on the [/weapons](/weapons) and [/sanity](/sanity) pages."
+    },
+    {
+      "id": "sources",
+      "type": "prose",
+      "heading": "Sources",
+      "body": "[NerdSchalk - The Sinking City 2 All Bosses and How to Beat Them](https://nerdschalk.com/the-sinking-city-2-all-bosses-and-how-to-beat-them) - `media/interview` - checked `2026-09-01` - Shoggoth's three-device eye mechanic, Slither Prime's summoned adds + glowing head timing, Acheronian Juggernaut and Smasher as the two remaining boss-tier encounters.\n[GameSpew - The Sinking City 2 walkthrough](https://www.gamespew.com/2026/08/the-sinking-city-2-walkthrough/) - `media/interview` - checked `2026-09-01` - Cross-reference for the boss encounter anchors during the chapter walkthroughs.\n[NerdSchalk - The Sinking City 2 All Consumables and Healing Items](https://nerdschalk.com/the-sinking-city-2-all-consumables-and-healing-items/) - `media/interview` - checked `2026-09-01` - Consumable categories used to plan boss prep (Lifesaver Kit, Regenerine Tonic, Night Ore recharge)."
+    }
+  ],
+  "faqIds": [],
+  "relatedPageIds": [
+    "weapons-en-US",
+    "enemies-en-US",
+    "sanity-en-US",
+    "walkthrough-en-US"
+  ],
+  "schemaTypes": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "sourceStatus": "official",
+  "lastReviewed": "2026-09-01"
+};
+
+// Source: locales/en-US/pages/inventory-expansions.md
+// h1: The Sinking City 2 Inventory Expansions: All 6 Slots
+export const page_inventory_expansions: PageContent = {
+  "id": "inventory-expansions-en-US",
+  "translationKey": "inventory-expansions",
+  "locale": "en-US",
+  "routeKind": "fixed",
+  "slug": "inventory-expansions",
+  "url": "/inventory-expansions",
+  "pageType": "guides",
+  "presentation": {
+    "shell": "content",
+    "variant": "reading-right-rail"
+  },
+  "h1": "The Sinking City 2 Inventory Expansions: All 6 Slots",
+  "seoTitle": "The Sinking City 2 Inventory Expansions: All 6 Slots and NG+ Reset",
+  "metaDescription": "The Sinking City 2 has 6 missable Inventory Expansion slots (+2 slots each, +12 total) spread across Chapters 2, 3, and 4. They reset to default capacity in NG+, so only the first playthrough matters.",
+  "summary": "The Sinking City 2 has 6 missable Inventory Expansion slots spread across Chapters 2, 3, and 4. Each grants +2 inventory slots for a maximum of +12. They are missable because completed chapters cannot be revisited via Chapter Select. The slots reset to default capacity in New Game Plus, so they only matter to the first playthrough; do not optimise a first-run build around NG+ recovery.",
+  "hero": {
+    "subtitle": "Find all six Inventory Expansion slots before chapter progression blocks them, and plan whether to optimise the first playthrough or commit to NG+.",
+    "ctas": []
+  },
+  "quickAnswer": "The Sinking City 2 has 6 Inventory Expansion slots (+2 slots each, +12 total) spread across Chapters 2, 3, and 4. They are missable because completed chapters cannot be revisited via Chapter Select. The slots reset to default capacity in New Game Plus, so they only matter to the first playthrough. If you want the full +12 slots, collect all six before finishing each chapter. Plan first-playthrough slot optimisation or commit to NG+ — you cannot do both.",
+  "keyFacts": [
+    {
+      "label": "Research date",
+      "value": "2026-09-01"
+    },
+    {
+      "label": "Scope",
+      "value": "Reference + missable guide"
+    },
+    {
+      "label": "Source rule",
+      "value": "Public expansion-location coverage + NG+ carryover guide"
+    }
+  ],
+  "modules": [
+    {
+      "id": "expansion-locations",
+      "type": "prose",
+      "heading": "All Six Inventory Expansion Locations",
+      "body": "Each Inventory Expansion grants +2 inventory slots, for a maximum of +12 slots across the campaign. Per TheClick.gg, GameRant, NerdSchalk, NoobFeed, Players.com.ua, VG Times, and Frogwares support notes, the six locations are:\n\n| # | Chapter | Location | Requirement |\n|---|---|---|---|\n| 1 | Ch. 2 (The Wake-Up Call) | Church Graveyard (star-locked crypt) | Star Key + E.R.C. Activator Pen |\n| 2 | Ch. 2 | Printing House (flooded lower route) | A.P.H. Key + E.R.C. Activator Pen |\n| 3 | Ch. 3 | Akeley Memorial Hospital Morgue | E.R.C. Activator Pen |\n| 4 | Ch. 3 | Hospital Gardens (northern gazebo) | None (loose pickup on a table) |\n| 5 | Ch. 4 (Time and Tide) | Fish Market Guard Post | Leyden Jar |\n| 6 | Ch. 4 | Jewelry Workshop (side room, NE) | E.R.C. Activator Pen (from Heart of Ice / Frozen Statue puzzle) |\n\nThe Hospital Gardens expansion (Ch. 3) is the easiest — a loose pickup on a gazebo table. The Jewelry Workshop expansion (Ch. 4) requires solving the Antikythera / Frozen Statue puzzle to obtain the Heart of Ice, which spawns an E.R.C. Activator Pen nearby; use the pen on the Jewelry Workshop crate."
+    },
+    {
+      "id": "erc-crates",
+      "type": "prose",
+      "heading": "How Emergency Relief Crates Work",
+      "body": "Five of the six Inventory Expansion slots are gated by Emergency Relief Crates (E.R.C. Crates), which require an E.R.C. Activator Pen to open. The Pen is consumed on use (single-use), and the Pen usually appears elsewhere in the same chapter or area — backtrack after finding one. A crate may appear before its pen is reachable, so do not assume a crate is permanently locked if the pen is not yet in hand.\n\nTips from the launch-window coverage:\n\n- Do not waste a pen on crates that contain only ammo or Dream Essence; save it for one that holds an Inventory Expansion or weapon upgrade.\n- The Fire Station E.R.C. (Ch. 2) contains only Shotgun Shells + Dream Essence; skip it on your first pass if your pen is limited.\n- Always search dungeon tables in addition to E.R.C. crates; some expansions sit on ordinary tables (the gazebo pickup in Ch. 3, and the Guard Post table in Ch. 4)."
+    },
+    {
+      "id": "ng-plus-reset",
+      "type": "prose",
+      "heading": "NG+ Reset Behaviour",
+      "body": "Inventory Expansion slots reset to default capacity in New Game Plus. Per NerdSchalk's New Game Plus items, lore, and carryover guide, NG+ carries over perk points, perks, and items from the completed save, but story progress resets — and so do any chapter-gated pickups like the Inventory Expansion slots. The slots are therefore only relevant to the first playthrough. Plan your first-run slot optimisation or commit to NG+; you cannot do both."
+    },
+    {
+      "id": "missable-rule",
+      "type": "prose",
+      "heading": "The No-Chapter-Replay Missable Rule",
+      "body": "The Inventory Expansions are missable because completed chapters cannot be freely revisited via Chapter Select. If you skip an expansion in Chapter 2 and finish the chapter, you cannot return to it without starting a new save. The same rule applies to the eight missable optional investigations, the four weapon pickups, the Mushroom Jack broadcasts, and the Emergency Relief Crate keys. The single-playthrough collection route is documented on the [/achievements](/achievements) page."
+    },
+    {
+      "id": "sources",
+      "type": "prose",
+      "heading": "Sources",
+      "body": "[TheClick.gg - The Sinking City 2 Inventory Expansions: All 6 Locations](https://www.theclick.gg/the-sinking-city-2-inventory-expansions) - `media/interview` - checked `2026-09-01` - All 6 Inventory Expansion slot locations with chapter, location, and requirement breakdown; +2 slots per expansion, +12 slots total.\n[GameRant - Unlock More Inventory Slots As Early as Chapter 2 in The Sinking City 2](https://gamerant.com/sinking-city-2-inventory-slots-locations) - `media/interview` - checked `2026-09-01` - Church Graveyard and Printing House slot locations; missable warning.\n[NerdSchalk - The Sinking City 2 Inventory Upgrade Guide: Location, Requirements, and How to Get](https://nerdschalk.com/the-sinking-city-2-inventory-upgrade-guide-location-requirements-and-how-to-get) - `media/interview` - checked `2026-09-01` - All 6 Inventory Expansion slot locations with chapter anchor and requirement.\n[NerdSchalk - The Sinking City 2 New Game Plus items, lore, and carryover guide](https://nerdschalk.com/the-sinking-city-2-new-game-plus-items-lore-and-carryover/) - `media/interview` - checked `2026-09-01` - Inventory Expansion reset behaviour in NG+ (slots reset to default capacity; perk points, perks, items carry over; story progress resets).\n[Player's Guidebook - The Sinking City 2 Inventory Upgrades and E.R.C. Crates](https://playerguidebook.com/the-sinking-city-2/inventory-upgrades-and-erc-crates) - `wiki/reference` - checked `2026-09-01` - E.R.C. Crate and Activator Pen mechanics cross-reference.\n[NoobFeed - The Sinking City 2 Printing House E.R.C. Location](https://www.noobfeed.com/articles/the-sinking-city-2-printing-house-erc-location) - `media/interview` - checked `2026-09-01` - Printing House flooded lower route and A.P.H. Key requirement cross-reference."
+    }
+  ],
+  "faqIds": [],
+  "relatedPageIds": [
+    "getting-started-en-US",
+    "achievements-en-US",
+    "walkthrough-en-US",
+    "new-game-plus-en-US"
+  ],
+  "schemaTypes": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "sourceStatus": "official",
+  "lastReviewed": "2026-09-01"
+};
+
+// Source: locales/en-US/pages/holloway-manor.md
+// h1: The Sinking City 2 Holloway Manor DLC: $12.99 Standalone and Premium Bundle
+export const page_holloway_manor: PageContent = {
+  "id": "holloway-manor-en-US",
+  "translationKey": "holloway-manor",
+  "locale": "en-US",
+  "routeKind": "fixed",
+  "slug": "holloway-manor",
+  "url": "/holloway-manor",
+  "pageType": "release",
+  "presentation": {
+    "shell": "content",
+    "variant": "reading-right-rail"
+  },
+  "h1": "The Sinking City 2 Holloway Manor DLC: $12.99 Standalone and Premium Bundle",
+  "seoTitle": "The Sinking City 2 Holloway Manor DLC: $12.99 Standalone and Premium Bundle",
+  "metaDescription": "The Sinking City 2 Holloway Manor is a $12.99 standalone Steam DLC that is also included in the $59.99 Premium Edition bundle on consoles. It adds a 2-hour haunted mansion side quest with the Bucking Bronco revolver, Kane attachments, and a revolver ammo recipe.",
+  "summary": "The Sinking City 2 Holloway Manor DLC is sold as a $12.99 standalone Steam purchase separate from the Premium Edition. On consoles the DLC is only available via the Premium Edition bundle; there is no console standalone SKU at launch. The DLC is a 2-hour side quest set in a haunted manor outside Arkham with the Bucking Bronco revolver, Kane's Hefty Barrel, Kane's Wrapped Grip, and a revolver ammo recipe usable in the main game.",
+  "hero": {
+    "subtitle": "Confirm the Holloway Manor $12.99 Steam standalone price, the Premium Edition console bundle, the Bucking Bronco + Kane attachments + ammo recipe reward list, and the 2-hour length.",
+    "ctas": []
+  },
+  "quickAnswer": "The Sinking City 2 Holloway Manor DLC is a $12.99 standalone Steam purchase separate from the Premium Edition. On consoles the DLC is only available via the $59.99 Premium Edition bundle; there is no console standalone SKU at launch. The DLC is a 2-hour haunted mansion side quest set outside Arkham, with the Bucking Bronco revolver, Kane's Hefty Barrel, Kane's Wrapped Grip, and a revolver ammo recipe that carry into the main game. The DLC is playable before or after the main campaign.",
+  "keyFacts": [
+    {
+      "label": "Research date",
+      "value": "2026-09-01"
+    },
+    {
+      "label": "Page type",
+      "value": "Status"
+    },
+    {
+      "label": "Source rule",
+      "value": "Steam store + Xbox Store + GamingBolt trailer coverage"
+    }
+  ],
+  "modules": [
+    {
+      "id": "price-and-availability",
+      "type": "prose",
+      "heading": "Price and Availability",
+      "body": "Per the Steam store page (AppID 2825860) and the Xbox Store Holloway Manor product page:\n\n- **Steam standalone**: $12.99 USD. Sold as a separate DLC that requires the base game.\n- **Premium Edition bundle**: $59.99 USD on Xbox Store / PlayStation Store. Includes the base game + Chthonic Arsenal + Arkham Field Kit + Holloway Manor.\n- **Console standalone**: not available at launch. Console buyers only get Holloway Manor via the Premium Edition bundle.\n\nThere is no console standalone SKU at launch; verify the Steam and Xbox Store pages before any console-side purchase decision."
+    },
+    {
+      "id": "dlc-length",
+      "type": "prose",
+      "heading": "Length and Playable Order",
+      "body": "Per GamingBolt's 2026-07-10 trailer showcase, Holloway Manor is a 2-hour DLC side quest set in a haunted mansion outside Arkham. The DLC is playable before or after the main campaign; the Bucking Bronco revolver and the Kane attachments are usable in the main game once unlocked, so the order is largely a player-preference call. The 2-hour figure is a GamingBolt-attributed estimate; final length depends on how much of the manor's optional exploration you clear."
+    },
+    {
+      "id": "reward-list",
+      "type": "prose",
+      "heading": "Reward List (Usable in the Main Game)",
+      "body": "Completing the Holloway Manor side quest grants the following rewards, which are usable in the main game:\n\n| Reward | Type | Notes |\n|---|---|---|\n| Bucking Bronco | Revolver | Named revolver added to the weapon category; usable in the main game |\n| Kane's Hefty Barrel | Revolver attachment | Barrel upgrade for the Bucking Bronco |\n| Kane's Wrapped Grip | Revolver attachment | Grip upgrade for the Bucking Bronco |\n| Revolver ammo recipe | Crafting recipe | Unlocks revolver ammo at the crafting bench in the main game |\n\nAll four rewards carry into the main game and are flagged in the [/weapons](/weapons) page as Premium / DLC content."
+    },
+    {
+      "id": "sources",
+      "type": "prose",
+      "heading": "Sources",
+      "body": "[The Sinking City 2 on Steam](https://store.steampowered.com/app/2825860/The_Sinking_City_2/) - `official/store` - checked `2026-09-01` - Holloway Manor listed as a $12.99 standalone DLC; Arkham Field Kit $7.99; Chthonic Arsenal $4.99; Original Soundtrack $9.99; Premium Edition $59.99 USD on Xbox Store.\n[Xbox Store - The Sinking City 2: The Holloway Manor](https://www.xbox.com/en-US/games/store/the-sinking-city-2-the-holloway-manor/9nncnf5slz97) - `official/store` - checked `2026-09-01` - Xbox Holloway Manor product page confirming the DLC exists as a separate SKU and is also bundled in the Premium Edition.\n[GamingBolt - The Sinking City 2 trailer showcases Chthonic Arsenal and 2-hour DLC side quest](https://gamingbolt.com/the-sinking-city-2-trailer-showcases-chthonic-arsenal-and-2-hour-dlc-side-quest) - `media/interview` - checked `2026-09-01` - 2026-07-10 trailer showcase describing the 2-hour DLC side quest length and the Bucking Bronco reward usable in the main game.\n[Frogwares YouTube channel](https://www.youtube.com/@Frogwares) - `official/store` - checked `2026-09-01` - Holloway Manor DLC trailer and developer confirmation of the Bucking Bronco reward."
+    }
+  ],
+  "faqIds": [],
+  "relatedPageIds": [
+    "price-en-US",
+    "weapons-en-US",
+    "updates-dlc-en-US"
+  ],
+  "schemaTypes": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "sourceStatus": "official",
+  "lastReviewed": "2026-09-01"
+};
+
 export const generatedPages: PageContent[] = [
   page_home,
   page_release_date,
@@ -1143,4 +1669,10 @@ export const generatedPages: PageContent[] = [
   page_achievements,
   page_vs_the_sinking_city_1,
   page_updates_dlc,
+  page_new_game_plus,
+  page_talents,
+  page_sanity,
+  page_bosses,
+  page_inventory_expansions,
+  page_holloway_manor,
 ];

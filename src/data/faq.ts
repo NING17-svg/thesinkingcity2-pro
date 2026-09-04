@@ -121,4 +121,64 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+  {
+    id: "ngplus-carryover",
+    question: "What carries over to New Game Plus in The Sinking City 2?",
+    answer:
+      "New Game Plus carries over all perk points, all unlocked perks, and all items from your completed save. Story progress resets so the new run restarts in Arkham using your carried progression. NG+-only content includes the 8 Ex Oblivione purple documents (the 'From Oblivion Read' achievement), the 5 Infinite Supplies Reference Set entries (infinite Frag Grenades, Handgun, Rifle, Shotgun, and SMG ammo), and the Eldritch Reward Talents that gate the 'What Dreams Are Made Of' achievement. See the /new-game-plus page for the full carryover vs. reset list.",
+    pageIds: ["faq", "new-game-plus-en-US", "achievements-en-US"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "nightshade-mask-talents",
+    question: "How many Talents are there and how does the Nightshade Mask loadout work?",
+    answer:
+      "The Sinking City 2 ships with 22 named Talents grouped into Combat Offense (11 perks), Combat / Weapon Handling (2 perks), Survival Defense & Healing (8 perks), and Investigation / Crafting Economy (1 perk). Talents are learned by spending Dream Essence at the Talent Table in Safe Rooms. The Nightshade Mask is the compact loadout board; only Talents occupying your limited equipped slots are active. The full set unlocks across New Game Plus via Eldritch Reward Talents. See the /talents page for the full per-Talent effect table.",
+    pageIds: ["faq", "talents-en-US", "new-game-plus-en-US"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "sanity-minds-eye",
+    question: "What drains sanity in The Sinking City 2, and how do I restore it?",
+    answer:
+      "Sanity drains when Mind's Eye is active, in dark Arkham zones, near corpses, and around cosmic entities tied to The Seed. Sanity restores in safe zones (passive recovery), with calming tonics and antipsychotics, and via Safe Room Talent upgrades (Sanity Regeneration is the community-recommended first pick for the Mind's Eye playstyle). Mind's Eye can only be activated when no enemies are nearby. See the /sanity page for the four launch consumable categories (Dolorocide, Regenerine, Lifesaver, Night Ore).",
+    pageIds: ["faq", "sanity-en-US", "talents-en-US"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "boss-fights-named",
+    question: "Which boss fights are in The Sinking City 2?",
+    answer:
+      "There are four named boss-tier encounters: Shoggoth (three-device eye vulnerability cycle; cycle the three strange devices and shoot the exposed eyes), Slither Prime (final boss; clear summoned adds before shooting the glowing head), Acheronian Juggernaut (ranged-grip interrupt pattern; break line of sight before the grab lands), and Smasher (recovery-window dodge loop; bait the committed attack, dodge, punish during recovery). See the /bosses page for per-boss weapon recommendations.",
+    pageIds: ["faq", "bosses-en-US", "walkthrough-en-US"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "inventory-expansions-missable",
+    question: "How many Inventory Expansion slots are missable in The Sinking City 2?",
+    answer:
+      "There are 6 missable Inventory Expansion slots (+2 slots each, +12 total) spread across Chapters 2, 3, and 4. They are missable because completed chapters cannot be revisited via Chapter Select. The slots reset to default capacity in New Game Plus, so they only matter to the first playthrough. See the /inventory-expansions page for the per-chapter location table.",
+    pageIds: ["faq", "inventory-expansions-en-US", "achievements-en-US"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "holloway-manor-standalone",
+    question: "Is Holloway Manor sold as a standalone DLC?",
+    answer:
+      "Yes on Steam: Holloway Manor is a $12.99 standalone DLC separate from the Premium Edition. No on consoles at launch: console buyers only get Holloway Manor via the $59.99 Premium Edition bundle. The DLC adds a 2-hour haunted mansion side quest with the Bucking Bronco revolver, Kane's Hefty Barrel, Kane's Wrapped Grip, and a revolver ammo recipe that carry into the main game. Playable before or after the main campaign. See the /holloway-manor page.",
+    pageIds: ["faq", "holloway-manor-en-US", "price-en-US"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 ];
