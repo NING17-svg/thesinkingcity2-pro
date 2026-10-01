@@ -87,3 +87,7 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 ## 2026-10-01 — shared Worker deployment maintenance
 
 User-authorized routing migration to `guide-pool-02` / Worker `task-bar-hero-calculator`; source push is connected to the shared Cloudflare Git build via the repository deploy hook. Content and public URL identities are unchanged. Completion is tracked by the central group migration report and live source/version verification.
+
+## 2026-10-01 — static guide group correction
+
+Production mapping: `guide-pool-02` / Worker `offbeat`. This group contains ten static guide sites and excludes the standalone calculator and OpenNext sites.
